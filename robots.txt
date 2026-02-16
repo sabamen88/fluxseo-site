@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://fluxseo.ai/sitemap.xml

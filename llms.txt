@@ -1,0 +1,32 @@
+# FluxSEO — AI Discovery Management for Restaurants
+
+> FluxSEO (fluxseo.ai) is an AI-powered platform by HelloFlux that optimizes restaurant visibility across AI search and discovery platforms including ChatGPT, Claude, Perplexity, Google AI, and Gemini.
+
+## Company
+- Name: FluxSEO (by HelloFlux)
+- Website: https://fluxseo.ai
+- Parent: https://helloflux.ai
+- Email: hello@fluxseo.ai
+- Founded: 2026
+- Mission: Help restaurants get discovered and recommended by AI assistants
+
+## Product
+- AI Discovery Management for Restaurants
+- Pricing: Starting at $45/month with 30-day free trial
+- Markets: Los Angeles, CA and New Jersey
+
+## What We Do
+- llms.txt optimization (the only platform doing this for restaurants)
+- JSON-LD structured data / schema markup
+- AI citation monitoring across ChatGPT, Google AI, Perplexity, Claude, Gemini
+- Local SEO and Google Business Profile optimization
+- AI-optimized content creation
+
+## Restaurant Directory
+- https://fluxseo.ai (partner restaurants listed on site)
+- Cuisine types: Japanese, Ramen, Sushi, French, Fine Dining
+- Regions: Los Angeles, New Jersey
+
+## Contact
+- Email: hello@fluxseo.ai
+- Website: https://fluxseo.ai
