@@ -1,814 +1,1176 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="robots" content="index, follow">
-<title>FLUX SEO: Get Your Restaurant Recommended by AI</title>
-<meta name="description" content="Stop being invisible to AI. FLUX SEO makes your restaurant the one ChatGPT, Siri, and Gemini recommend. Get your free AI audit in 2 minutes.">
-<link rel="canonical" href="https://fluxseo.ai/">
-<meta property="og:site_name" content="FLUX SEO">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://fluxseo.ai/">
-<meta property="og:title" content="FLUX SEO: Get Your Restaurant Recommended by AI">
-<meta property="og:description" content="When customers ask ChatGPT where to eat, is your restaurant in the answer? We fix that. Free audit, no commitment.">
-<meta property="og:image" content="https://fluxseo.ai/og-image.png">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="630">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="FLUX SEO: Get Your Restaurant Recommended by AI">
-<meta name="twitter:description" content="Stop being invisible to ChatGPT. Get your free AI audit in 2 minutes.">
-<meta name="twitter:image" content="https://fluxseo.ai/og-image.png">
-<meta name="twitter:site" content="@helloflux">
-<!-- Google Fonts: Barlow (headings) + DM Sans (body) -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preload" href="https://fonts.googleapis.com/css2?family=Barlow:wght@600;700;800&family=DM+Sans:wght@400;500;600;700&display=swap" as="style">
-<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600;700;800&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Organization",
-      "@id": "https://fluxseo.ai/#organization",
-      "name": "FLUX SEO",
-      "url": "https://fluxseo.ai/",
-      "logo": {"@type":"ImageObject","url":"https://fluxseo.ai/logo.svg","caption":"FLUX SEO logo"},
-      "description": "AI Discovery Management for restaurants — make your restaurant discoverable and recommendable across AI assistants and search.",
-      "email": "hello@fluxseo.ai",
-      "foundingDate": "2026",
-      "sameAs": ["https://www.linkedin.com/company/helloflux/","https://x.com/helloflux"]
-    },
-    {
-      "@type": "WebSite",
-      "@id": "https://fluxseo.ai/#website",
-      "url": "https://fluxseo.ai/",
-      "name": "FLUX SEO",
-      "publisher": {"@id":"https://fluxseo.ai/#organization"},
-      "inLanguage": "en-US"
-    },
-    {
-      "@type": "WebPage",
-      "@id": "https://fluxseo.ai/#webpage",
-      "url": "https://fluxseo.ai/",
-      "name": "FLUX SEO: Get Your Restaurant Recommended by AI",
-      "isPartOf": {"@id":"https://fluxseo.ai/#website"},
-      "about": {"@id":"https://fluxseo.ai/#service"},
-      "breadcrumb": {"@id":"https://fluxseo.ai/#breadcrumbs"},
-      "inLanguage": "en-US"
-    },
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://fluxseo.ai/#breadcrumbs",
-      "itemListElement": [{"@type":"ListItem","position":1,"name":"Home","item":"https://fluxseo.ai/"}]
-    },
-    {
-      "@type": "Service",
-      "@id": "https://fluxseo.ai/#service",
-      "name": "AI Discovery Management",
-      "serviceType": "AI Discovery Management for Restaurants",
-      "provider": {"@id":"https://fluxseo.ai/#organization"},
-      "areaServed": [{"@type":"Country","name":"United States"}],
-      "audience": {"@type":"Audience","audienceType":"Restaurants"},
-      "description": "Ongoing optimization of a restaurant's online presence so AI assistants and search engines can accurately recommend it.",
-      "offers": [
-        {"@id":"https://fluxseo.ai/#offer-starter"},
-        {"@id":"https://fluxseo.ai/#offer-growth"},
-        {"@id":"https://fluxseo.ai/#offer-pro"},
-        {"@id":"https://fluxseo.ai/#offer-multi"},
-        {"@id":"https://fluxseo.ai/#offer-enterprise"}
-      ]
-    },
-    {
-      "@type": "Offer", "@id": "https://fluxseo.ai/#offer-starter",
-      "name": "Starter", "url": "https://fluxseo.ai/#pricing",
-      "availability": "https://schema.org/InStock",
-      "priceSpecification": {"@type":"UnitPriceSpecification","price":"59","priceCurrency":"USD","billingDuration":1,"unitCode":"MON"},
-      "itemOffered": {"@id":"https://fluxseo.ai/#service"}
-    },
-    {
-      "@type": "Offer", "@id": "https://fluxseo.ai/#offer-growth",
-      "name": "Growth", "url": "https://fluxseo.ai/#pricing",
-      "availability": "https://schema.org/InStock",
-      "priceSpecification": {"@type":"UnitPriceSpecification","price":"129","priceCurrency":"USD","billingDuration":1,"unitCode":"MON"},
-      "itemOffered": {"@id":"https://fluxseo.ai/#service"}
-    },
-    {
-      "@type": "Offer", "@id": "https://fluxseo.ai/#offer-pro",
-      "name": "Pro", "url": "https://fluxseo.ai/#pricing",
-      "availability": "https://schema.org/InStock",
-      "priceSpecification": {"@type":"UnitPriceSpecification","price":"249","priceCurrency":"USD","billingDuration":1,"unitCode":"MON"},
-      "itemOffered": {"@id":"https://fluxseo.ai/#service"}
-    },
-    {
-      "@type": "Offer", "@id": "https://fluxseo.ai/#offer-multi",
-      "name": "Multi-Location", "url": "https://fluxseo.ai/#pricing",
-      "availability": "https://schema.org/InStock",
-      "priceSpecification": {"@type":"UnitPriceSpecification","price":"399","priceCurrency":"USD","billingDuration":1,"unitCode":"MON"},
-      "itemOffered": {"@id":"https://fluxseo.ai/#service"}
-    },
-    {
-      "@type": "Offer", "@id": "https://fluxseo.ai/#offer-enterprise",
-      "name": "Enterprise", "url": "https://fluxseo.ai/#pricing",
-      "availability": "https://schema.org/InStock",
-      "priceSpecification": {"@type":"UnitPriceSpecification","price":"799","priceCurrency":"USD","billingDuration":1,"unitCode":"MON"},
-      "itemOffered": {"@id":"https://fluxseo.ai/#service"}
-    },
-    {
-      "@type": "ProfessionalService", "@id": "https://fluxseo.ai/#la-location",
-      "name": "FLUX SEO — Los Angeles", "url": "https://fluxseo.ai/",
-      "parentOrganization": {"@id":"https://fluxseo.ai/#organization"},
-      "areaServed": {"@type":"City","name":"Los Angeles"},
-      "address": {"@type":"PostalAddress","addressLocality":"Los Angeles","addressRegion":"CA","addressCountry":"US"}
-    },
-    {
-      "@type": "ProfessionalService", "@id": "https://fluxseo.ai/#nj-location",
-      "name": "FLUX SEO — New Jersey", "url": "https://fluxseo.ai/",
-      "parentOrganization": {"@id":"https://fluxseo.ai/#organization"},
-      "areaServed": {"@type":"AdministrativeArea","name":"New Jersey"},
-      "address": {"@type":"PostalAddress","addressRegion":"NJ","addressCountry":"US"}
-    },
-    {
-      "@type": "FAQPage", "@id": "https://fluxseo.ai/#faq",
-      "mainEntity": [
-        {"@type":"Question","name":"I barely have time to check email. Is this going to be more work for me?","acceptedAnswer":{"@type":"Answer","text":"Setup takes one 10-minute conversation where you tell us about your restaurant. After that, we handle everything. Your monthly report is shorter than your average Yelp review."}},
-        {"@type":"Question","name":"Does this replace Google or Yelp?","acceptedAnswer":{"@type":"Answer","text":"No. Think of it as a new channel. People still Google. But more and more people ask AI instead. This makes sure you show up in both worlds."}},
-        {"@type":"Question","name":"My nephew said he could do this for me.","acceptedAnswer":{"@type":"Answer","text":"Maybe. But AI platforms change their recommendation systems constantly. This isn't a one-time fix — it's ongoing optimization. Unless your nephew wants a part-time job monitoring AI updates, you'll want someone dedicated to this."}},
-        {"@type":"Question","name":"What if it doesn't work?","acceptedAnswer":{"@type":"Answer","text":"90-day money-back guarantee. Full refund. We're betting on ourselves here."}},
-        {"@type":"Question","name":"I have multiple locations. Do I need separate accounts?","acceptedAnswer":{"@type":"Answer","text":"We offer multi-location pricing starting at $399/mo. Let's talk — we'll figure out what makes sense for your setup."}},
-        {"@type":"Question","name":"How do I know if this is even working?","acceptedAnswer":{"@type":"Answer","text":"Every month you get a simple report: which AI platforms are recommending you, for which queries, and how often. Plus we show you where you rank compared to nearby competitors."}},
-        {"@type":"Question","name":"What makes you different from regular SEO companies?","acceptedAnswer":{"@type":"Answer","text":"Regular SEO optimizes for Google's algorithm. We optimize for how AI language models understand and recommend restaurants. It's a different skill set."}},
-        {"@type":"Question","name":"Can I try this without committing?","acceptedAnswer":{"@type":"Answer","text":"Yes. Get the free audit first. See what AI knows (or doesn't know) about your restaurant. No credit card, no commitment."}},
-        {"@type":"Question","name":"What cuisines do you work with?","acceptedAnswer":{"@type":"Answer","text":"All of them. Thai, Mexican, BBQ, sushi, Mediterranean, Indian, Italian, French, Korean, soul food, vegan, seafood, steakhouses — if you serve food, we can optimize for AI discovery."}},
-        {"@type":"Question","name":"How long does it take to see results?","acceptedAnswer":{"@type":"Answer","text":"Most restaurants start appearing in AI responses within 3–4 weeks. Significant traffic increases typically show up by month 3."}}
-      ]
-    }
-  ]
-}
-</script>
-<style>
-*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
-:root{
-  --bg:#0A0A0A;--bg2:#1A1A1A;--bg3:#2D2D2D;--bg4:#383838;
-  --text:#F5F5F5;--text2:#E5E5E5;--text3:#999;
-  --gold:#D4AF37;--gold2:#B8860B;--gold-glow:rgba(212,175,55,.12);
-  --teal:#5EC4B6;--error:#E74C3C;
-  --radius:12px;--radius-sm:8px;
-  --heading:'Barlow',sans-serif;
-  --body:'DM Sans',sans-serif;
-  --max:1200px;
-}
-html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
-body{font-family:var(--body);background:var(--bg);color:var(--text);font-size:18px;line-height:1.6;-webkit-font-smoothing:antialiased}
-h1,h2,h3,h4,h5,h6{font-family:var(--heading);letter-spacing:-.02em}
-a{color:var(--gold);text-decoration:none;transition:color .2s}
-a:hover{color:var(--gold2)}
-img{max-width:100%;display:block}
-.container{max-width:var(--max);margin:0 auto;padding:0 24px}
-@media(max-width:640px){.container{padding:0 16px}}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FluxSEO — Does ChatGPT recommend your restaurant?</title>
+    <meta name="description" content="Make sure ChatGPT, Perplexity, and Google AI recommend your restaurant. FluxSEO optimizes your restaurant for AI discovery. Free audit. No contract. Starting at $59/mo.">
+    <meta property="og:title" content="When someone asks ChatGPT where to eat tonight — does it say your name?">
+    <meta property="og:description" content="Most restaurants are invisible to AI. FluxSEO fixes that. Get a free audit and see how ChatGPT sees your restaurant right now. No commitment. No credit card.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://fluxseo.ai">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="FluxSEO — Does ChatGPT say your restaurant's name?">
+    <meta name="twitter:description" content="AI discovery grew 226% in one year. Make sure your restaurant shows up. Free audit, no commitment.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
 
-/* ANIMATIONS */
-.fade-up{opacity:0;transform:translateY(24px);transition:opacity .6s ease,transform .6s ease}
-.fade-up.visible{opacity:1;transform:translateY(0)}
+        :root {
+            --bg: #0a0a0a;
+            --bg-card: #141414;
+            --bg-surface: #1a1a1a;
+            --border: #262626;
+            --border-light: #333;
+            --accent: #6366f1;
+            --accent-light: #818cf8;
+            --accent-glow: rgba(99, 102, 241, 0.25);
+            --text: #f5f5f5;
+            --text-muted: #a1a1aa;
+            --text-dim: #71717a;
+            --text-dimmer: #52525b;
+            --success: #22c55e;
+            --radius: 12px;
+            --radius-lg: 16px;
+            --max-w: 1120px;
+        }
 
-/* NAV */
-.nav{position:fixed;top:0;left:0;right:0;z-index:100;padding:16px 0;transition:background .3s,box-shadow .3s}
-.nav.scrolled{background:rgba(10,10,10,.96);box-shadow:0 1px 0 rgba(255,255,255,.06);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px)}
-.nav-inner{display:flex;align-items:center;justify-content:space-between;max-width:var(--max);margin:0 auto;padding:0 24px}
-.logo{font-family:var(--heading);font-size:22px;font-weight:800;letter-spacing:-.5px;color:var(--text)}
-.logo span{color:var(--gold)}
-.nav-links{display:flex;gap:28px;align-items:center}
-.nav-links a{color:var(--text2);font-size:15px;font-weight:500;transition:color .2s}
-.nav-links a:hover{color:var(--text);text-decoration:none}
-.nav-cta{background:var(--gold);color:#0A0A0A;padding:10px 22px;border-radius:8px;font-weight:700;font-size:14px;transition:all .2s}
-.nav-cta:hover{background:var(--gold2);color:#0A0A0A;text-decoration:none;transform:translateY(-1px)}
-.hamburger{display:none;background:none;border:none;cursor:pointer;padding:8px}
-.hamburger span{display:block;width:24px;height:2px;background:var(--text);margin:5px 0;transition:all .3s}
-@media(max-width:768px){
-  .hamburger{display:block}
-  .nav-links{display:none;position:absolute;top:100%;left:0;right:0;background:var(--bg2);flex-direction:column;padding:24px;gap:16px;border-top:1px solid rgba(255,255,255,.08)}
-  .nav-links.open{display:flex}
-  .nav-links a{font-size:17px}
-}
+        html { scroll-behavior: smooth; }
 
-/* HERO */
-.hero{padding:160px 0 96px;text-align:center;position:relative;overflow:hidden}
-.hero::before{content:'';position:absolute;top:-300px;left:50%;transform:translateX(-50%);width:900px;height:900px;background:radial-gradient(circle,rgba(212,175,55,.1) 0%,transparent 65%);pointer-events:none}
-.hero h1{font-size:clamp(32px,5.5vw,56px);line-height:1.12;font-weight:800;max-width:860px;margin:0 auto 28px;color:#fff}
-.hero h1 em{font-style:normal;color:var(--gold)}
-.hero p.sub{font-size:clamp(17px,2.5vw,21px);color:var(--text2);max-width:620px;margin:0 auto 44px;line-height:1.55}
-.hero-form{max-width:540px;margin:0 auto 16px;display:flex;gap:10px;flex-wrap:wrap;justify-content:center}
-.hero-form input{flex:1 1 200px;padding:16px 20px;border-radius:var(--radius-sm);border:1px solid rgba(255,255,255,.1);background:var(--bg3);color:var(--text);font-size:16px;font-family:var(--body);outline:none;transition:border-color .2s,box-shadow .2s}
-.hero-form input:focus{border-color:var(--gold);box-shadow:0 0 0 3px rgba(212,175,55,.15)}
-.hero-form input::placeholder{color:var(--text3)}
-.btn{display:inline-flex;align-items:center;gap:6px;padding:16px 32px;border-radius:var(--radius-sm);font-size:16px;font-weight:700;border:none;cursor:pointer;transition:all .25s;font-family:var(--body)}
-.btn-primary{background:var(--gold);color:#0A0A0A;box-shadow:0 4px 16px rgba(212,175,55,.2)}
-.btn-primary:hover{background:var(--gold2);transform:translateY(-2px);box-shadow:0 6px 24px rgba(212,175,55,.3);text-decoration:none;color:#0A0A0A}
-.btn-outline{background:transparent;border:2px solid rgba(255,255,255,.15);color:var(--text)}
-.btn-outline:hover{border-color:var(--gold);color:var(--gold);text-decoration:none}
-.hero-note{font-size:14px;color:var(--text3);margin-top:14px}
-.hero-note strong{color:var(--text2)}
+        body {
+            font-family: 'Inter', -apple-system, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            font-size: 16px;
+            -webkit-font-smoothing: antialiased;
+        }
 
-/* TRUST BAR */
-.trust-bar{padding:52px 0;border-top:1px solid rgba(255,255,255,.05);border-bottom:1px solid rgba(255,255,255,.05)}
-.trust-bar-inner{text-align:center}
-.trust-bar p{font-size:13px;text-transform:uppercase;letter-spacing:2.5px;color:var(--text3);margin-bottom:28px;font-weight:600;font-family:var(--heading)}
-.platform-logos{display:flex;justify-content:center;gap:48px;flex-wrap:wrap;align-items:center}
-.platform-logos .plogo{display:flex;align-items:center;gap:8px;color:var(--text2);font-size:15px;font-weight:600;opacity:.65;transition:opacity .2s}
-.platform-logos .plogo:hover{opacity:1}
-.platform-logos .plogo svg{width:24px;height:24px;flex-shrink:0}
+        a { color: var(--accent-light); text-decoration: none; }
+        a:hover { text-decoration: underline; }
 
-/* SECTIONS */
-.section{padding:96px 0}
-@media(max-width:640px){.section{padding:64px 0}}
-.section-label{font-family:var(--heading);font-size:13px;text-transform:uppercase;letter-spacing:2.5px;color:var(--gold);font-weight:700;margin-bottom:14px}
-.section h2{font-size:clamp(26px,4.5vw,44px);font-weight:800;line-height:1.15;margin-bottom:24px;color:#fff}
-.section p,.section li{color:var(--text2);line-height:1.65}
-.section p+p{margin-top:16px}
+        .container { max-width: var(--max-w); margin: 0 auto; padding: 0 24px; }
 
-/* THE SHIFT */
-.shift-quotes{margin:36px 0;padding:28px 32px;background:var(--bg2);border-left:4px solid var(--gold);border-radius:0 var(--radius-sm) var(--radius-sm) 0}
-.shift-quotes p{font-style:italic;color:var(--text);font-size:17px;margin:10px 0}
-.stat-box{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:24px;margin-top:48px}
-.stat-card{background:var(--bg3);border:1px solid rgba(255,255,255,.06);border-radius:var(--radius);padding:28px;text-align:center;transition:transform .2s,box-shadow .2s}
-.stat-card:hover{transform:translateY(-3px);box-shadow:0 12px 32px rgba(0,0,0,.3)}
-.stat-card .num{font-family:var(--heading);font-size:36px;font-weight:800;color:var(--gold);display:block;margin-bottom:6px}
-.stat-card .label{font-size:14px;color:var(--text2);line-height:1.45}
-.stat-card .source{font-size:11px;color:var(--text3);margin-top:10px;display:block}
+        /* ============ ANIMATIONS ============ */
+        @keyframes fadeUp {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .fade-up {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: opacity 0.7s ease, transform 0.7s ease;
+        }
+        .fade-up.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
 
-/* PROBLEM */
-.problem-highlight{background:var(--gold-glow);border:1px solid rgba(212,175,55,.2);border-radius:var(--radius);padding:28px 32px;margin:28px 0;font-size:18px;font-weight:600;color:var(--text);line-height:1.55}
+        /* ============ NAV ============ */
+        nav {
+            position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+            background: rgba(10, 10, 10, 0.85);
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            border-bottom: 1px solid rgba(38, 38, 38, 0.6);
+        }
+        .nav-inner {
+            max-width: var(--max-w);
+            margin: 0 auto;
+            padding: 0 24px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            height: 64px;
+        }
+        .nav-logo {
+            font-size: 18px; font-weight: 800; color: #fff;
+            letter-spacing: -0.3px;
+            display: flex; align-items: center; gap: 6px;
+        }
+        .nav-logo span { color: var(--accent); }
+        .nav-links { display: flex; align-items: center; gap: 32px; list-style: none; }
+        .nav-links a { color: var(--text-muted); font-size: 14px; font-weight: 500; text-decoration: none; transition: color 0.2s; }
+        .nav-links a:hover { color: #fff; text-decoration: none; }
+        .nav-cta {
+            background: var(--accent);
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 8px;
+            font-size: 14px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: transform 0.15s, box-shadow 0.15s;
+        }
+        .nav-cta:hover { transform: translateY(-1px); box-shadow: 0 4px 16px var(--accent-glow); text-decoration: none; }
+        .hamburger {
+            display: none; background: none; border: none; color: #fff;
+            font-size: 24px; cursor: pointer; padding: 8px;
+        }
+        .mobile-menu {
+            display: none; position: fixed; top: 64px; left: 0; right: 0; bottom: 0;
+            background: rgba(10, 10, 10, 0.98); z-index: 99; padding: 32px 24px;
+            flex-direction: column; gap: 24px;
+        }
+        .mobile-menu.open { display: flex; }
+        .mobile-menu a {
+            color: var(--text); font-size: 20px; font-weight: 600;
+            text-decoration: none; padding: 12px 0; border-bottom: 1px solid var(--border);
+        }
 
-/* TIMELINE */
-.timeline{margin-top:48px}
-.timeline-item{display:flex;gap:28px;margin-bottom:40px;position:relative}
-.timeline-marker{flex-shrink:0;width:52px;height:52px;background:var(--bg3);border:2px solid var(--gold);border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:var(--heading);font-weight:800;font-size:16px;color:var(--gold)}
-.timeline-content h3{font-size:20px;font-weight:700;color:#fff;margin-bottom:10px}
-.timeline-content p{font-size:16px;color:var(--text2)}
+        @media (max-width: 768px) {
+            .nav-links { display: none; }
+            .hamburger { display: block; }
+        }
 
-/* PRICING */
-.pricing-section{background:var(--bg2)}
-.pricing-toggle{text-align:center;margin-bottom:8px}
-.pricing-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:40px}
-.pricing-extra{display:grid;grid-template-columns:repeat(2,1fr);gap:20px;margin-top:20px}
-@media(max-width:1024px){.pricing-grid{grid-template-columns:1fr}.pricing-extra{grid-template-columns:1fr}}
-.price-card{background:var(--bg);border:1px solid rgba(255,255,255,.08);border-radius:var(--radius);padding:36px 28px;position:relative;transition:transform .25s,border-color .25s,box-shadow .25s}
-.price-card:hover{transform:translateY(-4px);box-shadow:0 16px 48px rgba(0,0,0,.3)}
-.price-card.featured{border-color:var(--gold);box-shadow:0 0 48px rgba(212,175,55,.12)}
-.price-badge{position:absolute;top:-13px;left:50%;transform:translateX(-50%);background:var(--gold);color:#0A0A0A;font-family:var(--heading);font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:1.5px;padding:5px 18px;border-radius:20px}
-.price-card h3{font-size:22px;font-weight:700;color:#fff;margin-bottom:4px}
-.price-card .price{font-family:var(--heading);font-size:48px;font-weight:800;color:#fff;margin:16px 0 4px}
-.price-card .price span{font-size:16px;font-weight:500;color:var(--text3)}
-.price-card .setup{font-size:14px;color:var(--teal);font-weight:600;margin-bottom:20px}
-.price-card .best-for{font-size:14px;color:var(--gold);font-weight:600;margin-bottom:18px}
-.price-card ul{list-style:none;margin-bottom:28px}
-.price-card li{font-size:15px;color:var(--text2);padding:7px 0 7px 24px;position:relative}
-.price-card li::before{content:'✓';position:absolute;left:0;color:var(--teal);font-weight:700}
-.price-card .btn{width:100%;justify-content:center}
-.pricing-footer{text-align:center;margin-top:44px}
-.pricing-footer p{font-size:15px;color:var(--text2)}
-.pricing-footer .guarantee{display:inline-flex;align-items:center;gap:8px;margin-top:16px;padding:14px 28px;background:rgba(94,196,182,.08);border:1px solid rgba(94,196,182,.2);border-radius:var(--radius-sm);color:var(--teal);font-weight:600;font-size:15px}
-.pricing-anchor{font-size:14px;color:var(--text3);margin-top:16px;font-style:italic}
+        /* ============ HERO ============ */
+        .hero {
+            padding: 140px 24px 80px;
+            text-align: center;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        .hero-badge {
+            display: inline-block;
+            background: rgba(99, 102, 241, 0.12);
+            color: var(--accent-light);
+            font-size: 14px; font-weight: 600;
+            padding: 8px 20px; border-radius: 100px;
+            border: 1px solid rgba(99, 102, 241, 0.2);
+            margin-bottom: 28px;
+        }
+        .hero h1 {
+            font-size: clamp(32px, 5.5vw, 56px);
+            font-weight: 800; line-height: 1.1;
+            letter-spacing: -1px; margin-bottom: 20px;
+        }
+        .hero h1 em {
+            font-style: normal;
+            background: linear-gradient(135deg, #6366f1, #a78bfa);
+            -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .hero-sub {
+            font-size: clamp(16px, 2.2vw, 20px);
+            color: var(--text-muted); line-height: 1.6;
+            max-width: 640px; margin: 0 auto 40px;
+        }
 
-/* TRUST / ABOUT */
-.trust-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:24px;margin-top:36px}
-.trust-card{background:var(--bg3);border:1px solid rgba(255,255,255,.06);border-radius:var(--radius);padding:32px;transition:transform .2s}
-.trust-card:hover{transform:translateY(-2px)}
-.trust-card .tc-icon{font-size:28px;margin-bottom:12px}
-.trust-card h3{font-size:18px;font-weight:700;color:#fff;margin-bottom:10px}
-.trust-card p{font-size:15px;color:var(--text2)}
-.founder-note{margin-top:48px;background:var(--bg2);border:1px solid rgba(212,175,55,.15);border-radius:var(--radius);padding:36px;max-width:720px}
-.founder-note blockquote{font-size:17px;color:var(--text2);line-height:1.7;border:none;margin:0;padding:0;font-style:italic}
-.founder-note .sig{margin-top:20px;font-weight:700;color:var(--gold);font-size:15px;font-style:normal}
+        /* Hero Form */
+        .hero-form-wrap {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-lg);
+            padding: 32px;
+            max-width: 720px;
+            margin: 0 auto;
+            text-align: left;
+        }
+        .hero-form-wrap h2 { font-size: 20px; font-weight: 700; margin-bottom: 4px; }
+        .hero-form-sub { color: var(--text-dim); font-size: 14px; margin-bottom: 24px; }
+        .form-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr auto;
+            gap: 12px;
+            align-items: end;
+        }
+        .form-group { display: flex; flex-direction: column; gap: 6px; }
+        .form-group label { font-size: 13px; font-weight: 600; color: #d4d4d8; }
+        .form-group input {
+            padding: 12px 14px;
+            background: #1c1c1c;
+            border: 1px solid var(--border-light);
+            border-radius: 10px;
+            color: #fff; font-size: 15px; font-family: inherit;
+            transition: border-color 0.2s;
+        }
+        .form-group input:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-glow); }
+        .form-group input::placeholder { color: var(--text-dimmer); }
+        .btn-primary {
+            display: inline-flex; align-items: center; justify-content: center;
+            background: linear-gradient(135deg, #6366f1, #7c3aed);
+            color: #fff; font-size: 15px; font-weight: 700; font-family: inherit;
+            padding: 12px 28px; border: none; border-radius: 10px;
+            cursor: pointer; transition: transform 0.15s, box-shadow 0.15s;
+            white-space: nowrap;
+        }
+        .btn-primary:hover { transform: translateY(-1px); box-shadow: 0 8px 24px var(--accent-glow); }
+        .btn-primary:active { transform: translateY(0); }
+        .form-footer-text { text-align: center; margin-top: 14px; font-size: 13px; color: var(--text-dimmer); }
 
-/* CASE STUDY */
-.case-study{background:var(--bg2)}
-.case-disclaimer{display:inline-block;background:rgba(212,175,55,.1);border:1px solid rgba(212,175,55,.2);color:var(--gold);font-family:var(--heading);font-size:12px;font-weight:700;padding:6px 16px;border-radius:20px;margin-bottom:24px;text-transform:uppercase;letter-spacing:1.5px}
-.case-timeline{margin-top:32px}
-.case-milestone{display:flex;align-items:baseline;gap:20px;margin-bottom:20px}
-.case-milestone .when{flex-shrink:0;width:100px;font-family:var(--heading);font-size:15px;font-weight:700;color:var(--teal)}
-.case-milestone .what{font-size:16px;color:var(--text2)}
+        @media (max-width: 768px) {
+            .form-row { grid-template-columns: 1fr; }
+            .hero-form-wrap { padding: 24px 20px; }
+        }
 
-/* FAQ */
-.faq-list{max-width:740px;margin:36px auto 0}
-.faq-item{border-bottom:1px solid rgba(255,255,255,.06)}
-.faq-q{display:flex;justify-content:space-between;align-items:center;padding:22px 0;cursor:pointer;gap:16px;transition:color .2s}
-.faq-q:hover h3{color:var(--gold)}
-.faq-q h3{font-size:17px;font-weight:600;color:#fff;flex:1;transition:color .2s}
-.faq-q .icon{width:24px;height:24px;flex-shrink:0;color:var(--text3);transition:transform .3s,color .3s}
-.faq-item.open .faq-q .icon{transform:rotate(45deg);color:var(--gold)}
-.faq-a{max-height:0;overflow:hidden;transition:max-height .35s ease}
-.faq-item.open .faq-a{max-height:400px}
-.faq-a p{padding:0 0 22px;font-size:16px;color:var(--text2)}
+        .success-msg { display: none; text-align: center; padding: 32px 16px; }
+        .success-msg .check-icon { font-size: 48px; margin-bottom: 12px; }
+        .success-msg h2 { font-size: 24px; font-weight: 700; margin-bottom: 8px; }
+        .success-msg p { color: var(--text-muted); font-size: 16px; line-height: 1.6; }
 
-/* FINAL CTA */
-.final-cta{background:linear-gradient(180deg,var(--bg) 0%,var(--bg2) 100%);text-align:center}
-.final-cta h2{color:#fff}
-.final-cta p{max-width:600px;margin:0 auto}
-.audit-form{max-width:500px;margin:36px auto 0;display:flex;flex-direction:column;gap:14px}
-.audit-form input,.audit-form select{padding:16px 20px;border-radius:var(--radius-sm);border:1px solid rgba(255,255,255,.1);background:var(--bg3);color:var(--text);font-size:16px;font-family:var(--body);outline:none;transition:border-color .2s,box-shadow .2s}
-.audit-form input:focus,.audit-form select:focus{border-color:var(--gold);box-shadow:0 0 0 3px rgba(212,175,55,.15)}
-.audit-form input::placeholder{color:var(--text3)}
-.audit-form .btn{justify-content:center;margin-top:4px}
-.form-note{font-size:14px;color:var(--text3);margin-top:16px}
+        /* ============ SOCIAL PROOF ============ */
+        .social-proof {
+            border-top: 1px solid var(--border);
+            border-bottom: 1px solid var(--border);
+            padding: 24px;
+            text-align: center;
+        }
+        .social-proof-inner {
+            max-width: var(--max-w); margin: 0 auto;
+            display: flex; justify-content: center; align-items: center;
+            gap: 40px; flex-wrap: wrap;
+        }
+        .proof-stat { font-size: 14px; color: var(--text-dim); }
+        .proof-stat strong { color: var(--text); font-weight: 700; }
 
-/* FOOTER */
-.footer{padding:64px 0 100px;border-top:1px solid rgba(255,255,255,.05)}
-.footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:32px}
-@media(max-width:768px){.footer-grid{grid-template-columns:1fr 1fr}}
-@media(max-width:480px){.footer-grid{grid-template-columns:1fr}}
-.footer-brand{max-width:280px}
-.footer-brand p{font-size:14px;color:var(--text3);margin-top:12px;line-height:1.6}
-.footer h4{font-family:var(--heading);font-size:14px;font-weight:700;color:var(--text);text-transform:uppercase;letter-spacing:1.5px;margin-bottom:16px}
-.footer ul{list-style:none}
-.footer li{margin-bottom:10px}
-.footer li a{color:var(--text3);font-size:14px;transition:color .2s}
-.footer li a:hover{color:var(--text)}
-.footer-bottom{margin-top:52px;padding-top:28px;border-top:1px solid rgba(255,255,255,.05);font-size:13px;color:var(--text3);text-align:center}
+        /* ============ SECTIONS ============ */
+        section { padding: 96px 24px; }
+        .section-label {
+            font-size: 13px; font-weight: 700; text-transform: uppercase;
+            letter-spacing: 2px; color: var(--accent); margin-bottom: 12px;
+        }
+        section h2 {
+            font-size: clamp(28px, 4vw, 42px);
+            font-weight: 800; line-height: 1.15;
+            letter-spacing: -0.5px; margin-bottom: 20px;
+        }
+        section .section-desc {
+            font-size: 18px; color: var(--text-muted);
+            line-height: 1.7; max-width: 640px;
+        }
+        .text-center { text-align: center; }
+        .mx-auto { margin-left: auto; margin-right: auto; }
 
-/* STICKY MOBILE CTA */
-.sticky-cta{position:fixed;bottom:0;left:0;right:0;z-index:99;background:rgba(10,10,10,.96);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);padding:14px 24px;display:none;border-top:1px solid rgba(255,255,255,.08)}
-.sticky-cta .btn{width:100%;justify-content:center;padding:16px;font-size:16px}
-@media(max-width:768px){.sticky-cta.visible{display:block}}
+        /* ============ PROBLEM ============ */
+        .problem { background: var(--bg-surface); }
+        .problem-content { max-width: 720px; margin: 0 auto; }
+        .problem-content p { color: var(--text-muted); font-size: 17px; line-height: 1.8; margin-bottom: 20px; }
+        .problem-content blockquote {
+            border-left: 3px solid var(--accent);
+            padding: 8px 0 8px 20px;
+            margin: 24px 0;
+            color: var(--text);
+            font-style: italic;
+            font-size: 17px; line-height: 1.7;
+        }
+        .stat-box {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-lg);
+            padding: 28px 32px;
+            margin-top: 32px;
+        }
+        .stat-box h4 { font-size: 16px; font-weight: 700; margin-bottom: 16px; }
+        .stat-row { display: flex; flex-direction: column; gap: 12px; }
+        .stat-item { display: flex; align-items: baseline; gap: 10px; font-size: 15px; color: var(--text-muted); }
+        .stat-item strong { color: var(--accent-light); font-weight: 700; font-size: 20px; white-space: nowrap; }
 
-/* SCARCITY BAR */
-.scarcity{display:inline-flex;align-items:center;gap:10px;padding:10px 20px;background:rgba(212,175,55,.08);border:1px solid rgba(212,175,55,.15);border-radius:24px;font-size:14px;color:var(--gold);font-weight:600;margin-bottom:28px}
-.scarcity .dot{width:8px;height:8px;background:var(--gold);border-radius:50%;animation:pulse 2s infinite}
-@keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
+        /* ============ HOW IT WORKS ============ */
+        .steps-grid {
+            display: grid; grid-template-columns: repeat(3, 1fr);
+            gap: 32px; margin-top: 56px;
+        }
+        .step {
+            text-align: center;
+            padding: 40px 28px;
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-lg);
+            transition: transform 0.3s, border-color 0.3s;
+        }
+        .step:hover { transform: translateY(-4px); border-color: var(--accent); }
+        .step-num {
+            display: inline-flex; align-items: center; justify-content: center;
+            width: 48px; height: 48px; border-radius: 50%;
+            background: rgba(99, 102, 241, 0.15);
+            color: var(--accent-light);
+            font-size: 20px; font-weight: 800;
+            margin-bottom: 20px;
+        }
+        .step h3 { font-size: 20px; font-weight: 700; margin-bottom: 10px; }
+        .step p { font-size: 15px; color: var(--text-muted); line-height: 1.6; }
 
-@media(max-width:768px){
-  .pricing-grid{grid-template-columns:1fr}
-  .pricing-extra{grid-template-columns:1fr}
-  .trust-grid{grid-template-columns:1fr}
-  .hero-form{flex-direction:column}
-  .hero-form input{width:100%}
-  .stat-box{grid-template-columns:1fr}
-  .timeline-item{flex-direction:column;gap:14px}
-  .footer{padding-bottom:120px}
-}
+        @media (max-width: 768px) { .steps-grid { grid-template-columns: 1fr; } }
+
+        /* ============ FEATURES ============ */
+        .features-grid {
+            display: grid; grid-template-columns: repeat(2, 1fr);
+            gap: 24px; margin-top: 56px;
+        }
+        .feature-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-lg);
+            padding: 36px 32px;
+            transition: transform 0.3s, border-color 0.3s;
+        }
+        .feature-card:hover { transform: translateY(-4px); border-color: var(--accent); }
+        .feature-icon { font-size: 32px; margin-bottom: 16px; }
+        .feature-card h3 { font-size: 20px; font-weight: 700; margin-bottom: 10px; }
+        .feature-card p { font-size: 15px; color: var(--text-muted); line-height: 1.6; }
+
+        @media (max-width: 768px) { .features-grid { grid-template-columns: 1fr; } }
+
+        /* ============ PRICING ============ */
+        .pricing-section { background: var(--bg-surface); }
+
+        .pricing-toggle {
+            display: flex; align-items: center; justify-content: center;
+            gap: 14px; margin: 32px 0 48px;
+        }
+        .pricing-toggle span { font-size: 15px; font-weight: 500; color: var(--text-dim); transition: color 0.2s; }
+        .pricing-toggle span.active { color: var(--text); }
+        .toggle-switch {
+            position: relative; width: 52px; height: 28px;
+            background: #333; border-radius: 14px; cursor: pointer;
+            transition: background 0.3s;
+        }
+        .toggle-switch.on { background: var(--accent); }
+        .toggle-switch::after {
+            content: ''; position: absolute;
+            top: 3px; left: 3px;
+            width: 22px; height: 22px;
+            background: #fff; border-radius: 50%;
+            transition: transform 0.3s;
+        }
+        .toggle-switch.on::after { transform: translateX(24px); }
+        .save-badge {
+            background: rgba(34, 197, 94, 0.15);
+            color: #4ade80;
+            font-size: 12px; font-weight: 700;
+            padding: 4px 10px; border-radius: 100px;
+        }
+
+        .pricing-grid {
+            display: grid; grid-template-columns: repeat(3, 1fr);
+            gap: 24px; max-width: 1000px; margin: 0 auto;
+            align-items: start;
+        }
+        .price-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-lg);
+            padding: 36px 28px;
+            position: relative;
+            transition: transform 0.3s;
+        }
+        .price-card:hover { transform: translateY(-4px); }
+        .price-card.popular {
+            border-color: var(--accent);
+            box-shadow: 0 0 40px rgba(99, 102, 241, 0.15);
+        }
+        .popular-badge {
+            position: absolute; top: -12px; left: 50%; transform: translateX(-50%);
+            background: var(--accent);
+            color: #fff; font-size: 12px; font-weight: 700;
+            padding: 4px 16px; border-radius: 100px;
+            white-space: nowrap;
+        }
+        .price-card h3 { font-size: 22px; font-weight: 700; margin-bottom: 4px; }
+        .price-card .plan-desc { font-size: 14px; color: var(--text-dim); margin-bottom: 20px; }
+        .price-amount { margin-bottom: 6px; }
+        .price-amount .dollar { font-size: 40px; font-weight: 800; letter-spacing: -1px; }
+        .price-amount .period { font-size: 15px; color: var(--text-dim); }
+        .price-original {
+            font-size: 14px; color: var(--text-dimmer);
+            text-decoration: line-through;
+            margin-bottom: 4px; min-height: 20px;
+        }
+        .price-setup { font-size: 13px; color: var(--text-dim); margin-bottom: 24px; }
+        .price-card ul { list-style: none; margin-bottom: 28px; }
+        .price-card li {
+            font-size: 14px; color: var(--text-muted);
+            padding: 8px 0; display: flex; align-items: baseline; gap: 10px;
+            border-bottom: 1px solid rgba(38, 38, 38, 0.5);
+        }
+        .price-card li::before { content: '✓'; color: var(--accent-light); font-weight: 700; flex-shrink: 0; }
+        .price-card .btn-primary { width: 100%; }
+        .price-card .btn-outline {
+            display: block; width: 100%; text-align: center;
+            padding: 12px 28px;
+            border: 2px solid var(--border-light);
+            border-radius: 10px;
+            color: var(--text); font-size: 15px; font-weight: 700; font-family: inherit;
+            background: transparent; cursor: pointer;
+            transition: border-color 0.2s, background 0.2s;
+        }
+        .price-card .btn-outline:hover { border-color: var(--accent); background: rgba(99, 102, 241, 0.08); }
+
+        .pricing-footer {
+            text-align: center; margin-top: 40px;
+            display: flex; justify-content: center; gap: 32px; flex-wrap: wrap;
+        }
+        .pricing-footer span { font-size: 14px; color: var(--text-dim); display: flex; align-items: center; gap: 6px; }
+
+        @media (max-width: 768px) { .pricing-grid { grid-template-columns: 1fr; max-width: 400px; } }
+
+        /* ============ FAQ ============ */
+        .faq-list { max-width: 720px; margin: 48px auto 0; }
+        .faq-item { border-bottom: 1px solid var(--border); }
+        .faq-q {
+            display: flex; align-items: center; justify-content: space-between;
+            padding: 20px 0; cursor: pointer; gap: 16px;
+            font-size: 17px; font-weight: 600; color: var(--text);
+            background: none; border: none; width: 100%; text-align: left; font-family: inherit;
+        }
+        .faq-q:hover { color: var(--accent-light); }
+        .faq-chevron {
+            flex-shrink: 0;
+            width: 20px; height: 20px;
+            transition: transform 0.3s;
+            color: var(--text-dim);
+        }
+        .faq-item.open .faq-chevron { transform: rotate(180deg); }
+        .faq-a {
+            max-height: 0; overflow: hidden;
+            transition: max-height 0.4s ease, padding 0.3s ease;
+        }
+        .faq-item.open .faq-a { max-height: 300px; padding-bottom: 20px; }
+        .faq-a p { font-size: 15px; color: var(--text-muted); line-height: 1.7; }
+
+        /* ============ FINAL CTA ============ */
+        .final-cta {
+            background: linear-gradient(180deg, var(--bg) 0%, #0f0f1a 100%);
+            text-align: center;
+        }
+        .final-cta h2 {
+            font-size: clamp(28px, 4vw, 42px);
+        }
+        .final-form {
+            max-width: 560px;
+            margin: 40px auto 0;
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-lg);
+            padding: 32px;
+        }
+        .final-form .form-row { grid-template-columns: 1fr 1fr; }
+        @media (max-width: 640px) { .final-form .form-row { grid-template-columns: 1fr; } }
+        .final-form .btn-primary { width: 100%; margin-top: 8px; padding: 14px; font-size: 16px; }
+        .final-form .form-footer-text { margin-top: 12px; }
+        .contact-line { margin-top: 24px; font-size: 14px; color: var(--text-dim); }
+        .contact-line a { color: var(--accent-light); }
+
+        /* ============ FOOTER ============ */
+        footer {
+            border-top: 1px solid var(--border);
+            padding: 48px 24px 32px;
+        }
+        .footer-grid {
+            max-width: var(--max-w); margin: 0 auto;
+            display: grid; grid-template-columns: 2fr 1fr 1fr 1fr;
+            gap: 40px;
+        }
+        .footer-brand p { font-size: 14px; color: var(--text-dim); margin-top: 8px; line-height: 1.6; }
+        .footer-col h4 { font-size: 13px; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: var(--text-dim); margin-bottom: 16px; }
+        .footer-col a { display: block; font-size: 14px; color: var(--text-muted); margin-bottom: 10px; text-decoration: none; }
+        .footer-col a:hover { color: #fff; }
+        .footer-bottom {
+            max-width: var(--max-w); margin: 32px auto 0;
+            padding-top: 24px; border-top: 1px solid var(--border);
+            font-size: 13px; color: var(--text-dimmer);
+            text-align: center;
+        }
+        @media (max-width: 768px) {
+            .footer-grid { grid-template-columns: 1fr 1fr; gap: 32px; }
+        }
+        @media (max-width: 480px) {
+            .footer-grid { grid-template-columns: 1fr; }
+        }
+
+        /* ============ STICKY MOBILE CTA ============ */
+        .sticky-cta {
+            display: none;
+            position: fixed; bottom: 0; left: 0; right: 0;
+            z-index: 90;
+            padding: 12px 16px;
+            background: rgba(10, 10, 10, 0.95);
+            backdrop-filter: blur(12px);
+            border-top: 1px solid var(--border);
+        }
+        .sticky-cta .btn-primary { width: 100%; padding: 14px; font-size: 16px; }
+        @media (max-width: 768px) {
+            .sticky-cta.show { display: block; }
+            footer { padding-bottom: 80px; }
+        }
+    @keyframes pulse { 0%,100% { opacity:1; } 50% { opacity:0.5; } }
 </style>
 </head>
 <body>
 
-<!-- NAV -->
-<nav class="nav" id="nav">
-  <div class="nav-inner">
-    <div class="logo">FLUX <span>SEO</span></div>
-    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
-      <span></span><span></span><span></span>
-    </button>
-    <div class="nav-links" id="navLinks">
-      <a href="#how-it-works">How It Works</a>
-      <a href="#pricing">Pricing</a>
-      <a href="#faq">FAQ</a>
-      <a href="#audit" class="nav-cta">Free Audit</a>
+<!-- ============ NAV ============ -->
+<nav>
+    <div class="nav-inner">
+        <div class="nav-logo">⚡ <span>FLUX</span>SEO</div>
+        <ul class="nav-links">
+            <li><a href="#how-it-works">How It Works</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#faq">FAQ</a></li>
+        </ul>
+        <a href="#audit-form" class="nav-cta">Get Free Audit</a>
+        <button class="hamburger" onclick="document.getElementById('mobile-menu').classList.toggle('open')" aria-label="Menu">☰</button>
     </div>
-  </div>
 </nav>
-
-<!-- HERO -->
-<section class="hero">
-  <div class="container">
-    <div class="scarcity"><span class="dot"></span> Founding member spots: 25 LA + 25 NJ remaining — lock in lifetime pricing</div>
-    <h1>When customers ask AI for restaurant recommendations, <em>does it know you exist?</em></h1>
-    <p class="sub">Most restaurants are invisible to ChatGPT, Siri, and Gemini. FLUX SEO fixes that — so when someone asks where to eat, your restaurant is the answer they get.</p>
-    <form class="hero-form" action="https://formspree.io/f/xvgzjlqr" method="POST">
-      <input type="hidden" name="_source" value="hero-form">
-      <input type="text" name="restaurant" placeholder="Your restaurant name" required aria-label="Restaurant name">
-      <input type="email" name="email" placeholder="Your email" required aria-label="Email">
-      <button type="submit" class="btn btn-primary">See What AI Says About My Restaurant →</button>
-    </form>
-    <p class="hero-note">Takes 2 minutes. <strong>No credit card. No sales call. No commitment.</strong> You'll hear back within 24 hours.</p>
-  </div>
-</section>
-
-<!-- TRUST BAR -->
-<section class="trust-bar">
-  <div class="trust-bar-inner container">
-    <p>We optimize your restaurant for</p>
-    <div class="platform-logos">
-      <div class="plogo"><svg viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="2"/><path d="M8 12h8M12 8v8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg> ChatGPT</div>
-      <div class="plogo"><svg viewBox="0 0 24 24" fill="currentColor"><polygon points="12,2 22,20 2,20" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg> Gemini</div>
-      <div class="plogo"><svg viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="3" fill="currentColor"/><circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="2"/></svg> Perplexity</div>
-      <div class="plogo"><svg viewBox="0 0 24 24" fill="currentColor"><rect x="4" y="4" width="16" height="16" rx="4" fill="none" stroke="currentColor" stroke-width="2"/></svg> Claude</div>
-      <div class="plogo"><svg viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="10" fill="none" stroke="currentColor" stroke-width="2"/><path d="M9 16c1.5-2 4.5-2 6 0" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg> Siri</div>
-    </div>
-  </div>
-</section>
-
-<!-- THE SHIFT -->
-<section class="section fade-up" id="the-shift">
-  <div class="container">
-    <div class="section-label">The New Reality</div>
-    <h2>Google isn't the only place people search for restaurants anymore.</h2>
-    <p>Your regulars still find you on Google. But a growing number of new customers? They're asking ChatGPT. Siri. Google's AI. Perplexity.</p>
-    <div class="shift-quotes">
-      <p>"What's a good date night spot near me?"</p>
-      <p>"Best Thai food that's not a chain?"</p>
-      <p>"Where should I take my parents for dinner in [neighborhood]?"</p>
-    </div>
-    <p>These aren't Google searches. They're conversations. And the AI doesn't show 10 blue links — it recommends <strong>one or two places by name</strong>.</p>
-    <p>If you're not one of them, that customer walks into someone else's restaurant. You never even knew they were looking.</p>
-    <div class="stat-box">
-      <div class="stat-card"><span class="num">84%</span><span class="label">of AI restaurant discovery happens on ChatGPT</span><span class="source">OpenAI usage data, 2025</span></div>
-      <div class="stat-card"><span class="num">226%</span><span class="label">more people used AI to find restaurants in 2025 vs. 2024</span><span class="source">Similarweb AI traffic analysis</span></div>
-      <div class="stat-card"><span class="num">40%</span><span class="label">of Gen Z prefers AI or social over Google for restaurants</span><span class="source">Google/Ipsos consumer survey, 2025</span></div>
-    </div>
-  </div>
-</section>
-
-<!-- THE PROBLEM -->
-<section class="section fade-up" style="background:var(--bg2)">
-  <div class="container">
-    <div class="section-label">Why You're Invisible</div>
-    <h2>It's not personal. AI just can't find you.</h2>
-    <p>AI assistants don't browse Yelp reviews like a person would. They scan information across the internet and decide which restaurants to recommend based on how well they can "read" your details.</p>
-    <p>Most restaurant websites? <strong>AI can't read them at all.</strong></p>
-    <p>Your beautiful photos, your carefully written menu descriptions — invisible to ChatGPT. It's like having an unlisted phone number in 2026. You exist, but nobody new can find you.</p>
-    <div class="problem-highlight">FLUX SEO translates your restaurant into the language AI actually understands. Your menu, your vibe, your story, what makes you different from the 47 other places in your neighborhood — we make sure AI gets all of it.</div>
-    <p><strong>The result?</strong> When someone asks "where should I eat?" — your restaurant is in the answer.</p>
-  </div>
-</section>
-
-<!-- MID-PAGE CTA -->
-<div style="text-align:center;padding:40px 0">
-  <a href="#audit" class="btn btn-primary" style="font-size:17px;padding:18px 36px">Get Your Free AI Audit — See Where You Stand →</a>
+<div class="mobile-menu" id="mobile-menu">
+    <a href="#how-it-works" onclick="this.parentElement.classList.remove('open')">How It Works</a>
+    <a href="#pricing" onclick="this.parentElement.classList.remove('open')">Pricing</a>
+    <a href="#faq" onclick="this.parentElement.classList.remove('open')">FAQ</a>
+    <a href="#audit-form" onclick="this.parentElement.classList.remove('open')">Get Free Audit</a>
 </div>
 
-<!-- HOW IT WORKS -->
-<section class="section fade-up" id="how-it-works">
-  <div class="container">
-    <div class="section-label">How It Works</div>
-    <h2>You run your restaurant. We handle the AI stuff.</h2>
-    <div class="timeline">
-      <div class="timeline-item">
-        <div class="timeline-marker">1</div>
-        <div class="timeline-content">
-          <h3>Week 1 — We audit how AI sees you right now</h3>
-          <p>You'll get a plain-English report. Not a 40-page PDF — a clear breakdown: here's what AI knows about your restaurant, here's what it's getting wrong, here's what's missing entirely.</p>
-          <p style="margin-top:10px"><strong>This audit is free whether you sign up or not.</strong></p>
+<!-- ============ HERO ============ -->
+<header class="hero" id="top">
+    <div class="hero-badge">🎁 Free AI Audit — No Credit Card</div>
+
+    <h1>When someone asks ChatGPT<br>where to eat tonight —<br><em>does it say your name?</em></h1>
+
+    <p class="hero-sub">Millions of people now ask AI for restaurant recommendations instead of Googling. AI doesn't show 10 results — it picks one or two. If you're not one of them, you're invisible.</p>
+
+    <div class="hero-form-wrap" id="audit-form">
+        <h2>Get Your Free AI Audit</h2>
+        <p class="hero-form-sub">Takes 30 seconds. Instant results.</p>
+
+        <form id="hero-form">
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="restaurant">Restaurant Name</label>
+                    <input type="text" id="restaurant" name="restaurant" placeholder="e.g. Bella's Trattoria" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="you@restaurant.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="city">City</label>
+                    <input type="text" id="city" name="city" placeholder="e.g. Culver City, CA" required>
+                </div>
+            </div>
+            <div style="text-align:center; margin-top:16px;">
+                <button type="submit" class="btn-primary" id="audit-btn" style="width:100%; max-width:400px; padding:16px 32px; font-size:18px;">Get My Free Audit →</button>
+            </div>
+        </form>
+        <p class="form-footer-text">🔒 No spam. No credit card. Instant results.</p>
+
+        <!-- Loading state -->
+        <div id="audit-loading" style="display:none; text-align:center; padding:40px 20px;">
+            <div style="font-size:48px; margin-bottom:16px; animation: pulse 1.5s infinite;">🔍</div>
+            <h2 style="font-size:20px; margin-bottom:8px;">Scanning AI platforms...</h2>
+            <p style="color:#a1a1aa; font-size:14px;" id="loading-status">Asking ChatGPT about your restaurant...</p>
+            <div style="margin-top:20px; height:4px; background:#1c1c1c; border-radius:2px; overflow:hidden; max-width:300px; margin-left:auto; margin-right:auto;">
+                <div id="progress-bar" style="height:100%; background:linear-gradient(90deg,#6366f1,#a78bfa); width:0%; transition:width 0.5s ease; border-radius:2px;"></div>
+            </div>
         </div>
-      </div>
-      <div class="timeline-item">
-        <div class="timeline-marker">2</div>
-        <div class="timeline-content">
-          <h3>Weeks 2–3 — We build your AI profile</h3>
-          <p>We take everything that makes your restaurant <em>your restaurant</em> — your menu, your specialties, your neighborhood, your story — and structure it so every major AI assistant can find and recommend you. You approve everything before it goes live.</p>
+
+        <!-- Results -->
+        <div id="audit-results" style="display:none; padding:24px 0;">
+            <div style="text-align:center; margin-bottom:24px;">
+                <div id="score-display" style="font-size:64px; font-weight:800; margin-bottom:4px;"></div>
+                <p id="score-label" style="font-size:14px; color:#a1a1aa; text-transform:uppercase; letter-spacing:1px;">AI Visibility Score</p>
+            </div>
+
+            <div id="platform-results" style="display:flex; flex-direction:column; gap:12px; margin-bottom:24px;"></div>
+
+            <div id="recommendation-box" style="background:#1c1c1c; border-radius:12px; padding:20px; margin-bottom:24px;">
+                <p id="recommendation-text" style="font-size:15px; line-height:1.6; color:#d4d4d8;"></p>
+            </div>
+
+            <div id="competitors-section" style="display:none; margin-bottom:24px;">
+                <h3 style="font-size:16px; font-weight:600; margin-bottom:12px; color:#f87171;">🏆 AI is recommending these instead:</h3>
+                <div id="competitors-list" style="display:flex; flex-wrap:wrap; gap:8px;"></div>
+            </div>
+
+            <div style="text-align:center; padding:20px; background:rgba(99,102,241,0.1); border-radius:12px; border:1px solid rgba(99,102,241,0.2);">
+                <p style="font-size:16px; font-weight:600; margin-bottom:8px;">Want us to fix this?</p>
+                <p style="font-size:14px; color:#a1a1aa; margin-bottom:16px;">We'll optimize your restaurant so AI recommends YOU — starting at $59/month.</p>
+                <a href="#pricing" class="btn-primary" style="text-decoration:none; display:inline-block; padding:12px 32px;">See Plans →</a>
+            </div>
         </div>
-      </div>
-      <div class="timeline-item">
-        <div class="timeline-marker">3</div>
-        <div class="timeline-content">
-          <h3>Week 4+ — We monitor and improve</h3>
-          <p>AI platforms change constantly. We track how often you're being recommended, for which queries, and in which areas — then adjust. You get a monthly report that takes 2 minutes to read.</p>
+    </div>
+</header>
+
+<!-- ============ SOCIAL PROOF ============ -->
+<div class="social-proof">
+    <div class="social-proof-inner">
+        <div class="proof-stat">📊 AI discovery up <strong>226%</strong> since 2024</div>
+        <div class="proof-stat">🍽️ Serving restaurants in <strong>15</strong> US cities</div>
+        <div class="proof-stat">🔒 <strong>90-day</strong> money-back guarantee</div>
+    </div>
+</div>
+
+<!-- ============ PROBLEM ============ -->
+<section class="problem" id="problem">
+    <div class="problem-content fade-up">
+        <div class="section-label">The New Reality</div>
+        <h2>The way people find restaurants just changed.</h2>
+
+        <p>Your regulars still find you on Google. But a growing number of new customers? They're asking ChatGPT. Siri. Google's AI. Perplexity.</p>
+
+        <blockquote>
+            "What's a good date night spot in Jersey City?"<br>
+            "Best tacos near LAX that aren't a chain?"<br>
+            "Where should I take my mom for her birthday?"
+        </blockquote>
+
+        <p>These aren't Google searches. They're conversations. And the AI doesn't show 10 blue links — it recommends <strong>one or two places</strong> by name.</p>
+
+        <p>If you're not one of them, that customer walks into someone else's restaurant. You never even knew they were looking.</p>
+
+        <div class="stat-box">
+            <h4>📊 Real numbers:</h4>
+            <div class="stat-row">
+                <div class="stat-item"><strong>84.2%</strong> ChatGPT holds the majority of AI restaurant discovery</div>
+                <div class="stat-item"><strong>226%</strong> AI discovery sessions grew from 2024 to 2025</div>
+                <div class="stat-item"><strong>40%</strong> of Gen Z prefers AI or social over Google for finding restaurants</div>
+            </div>
         </div>
-      </div>
     </div>
-    <p style="margin-top:20px;font-style:italic;color:var(--text3)">No long-term contracts. No jargon. No "synergizing your digital ecosystem."</p>
-  </div>
 </section>
 
-<!-- PRICING -->
-<section class="section pricing-section fade-up" id="pricing">
-  <div class="container">
-    <div class="section-label">Pricing</div>
-    <h2>Less than a single DoorDash commission.</h2>
-    <p>You're already paying platforms that take 30% of every order. This costs less and actually brings new people through your door.</p>
-    <p style="margin-top:12px">All plans include <strong>$0 setup fees</strong> and our <strong>90-day money-back guarantee</strong>. Cancel anytime.</p>
+<!-- ============ HOW IT WORKS ============ -->
+<section id="how-it-works">
+    <div class="container">
+        <div class="text-center fade-up">
+            <div class="section-label">How It Works</div>
+            <h2>You run your restaurant.<br>We handle the AI stuff.</h2>
+            <p class="section-desc mx-auto">No contracts. No jargon. No "synergizing your digital ecosystem."</p>
+        </div>
 
-    <!-- Main 3 tiers -->
-    <div class="pricing-grid">
-      <!-- Starter -->
-      <div class="price-card">
-        <h3>Starter</h3>
-        <div class="price">$59<span>/mo per location</span></div>
-        <div class="setup">$0 setup fee</div>
-        <div class="best-for">Best for: single-location restaurants testing AI visibility</div>
-        <ul>
-          <li>Complete AI audit of your restaurant</li>
-          <li>We structure your restaurant info so ChatGPT, Gemini &amp; Perplexity can recommend you</li>
-          <li>Monthly visibility report</li>
-          <li>1 update request per month</li>
-          <li>Email support</li>
-        </ul>
-        <a href="#audit" class="btn btn-outline">Get Your Free AI Audit →</a>
-      </div>
-      <!-- Growth (featured) -->
-      <div class="price-card featured">
-        <div class="price-badge">🔥 Most Popular</div>
-        <h3>Growth</h3>
-        <div class="price">$129<span>/mo per location</span></div>
-        <div class="setup">$0 setup fee</div>
-        <div class="best-for">Best for: restaurants serious about owning their neighborhood in AI</div>
-        <ul>
-          <li>Everything in Starter, plus:</li>
-          <li>We monitor every major AI platform — if you disappear from recommendations, we catch it fast</li>
-          <li>See which nearby restaurants AI recommends instead of you — and what we're doing to change that</li>
-          <li>Each menu optimized separately — so you show up for brunch AND dinner searches</li>
-          <li>When AI platforms change how they recommend restaurants, we update you before competitors notice</li>
-          <li>2 update requests per month</li>
-          <li>Quarterly 30-minute strategy call — what's working, what's changed, what to focus on next</li>
-        </ul>
-        <a href="#audit" class="btn btn-primary">Get Your Free AI Audit →</a>
-      </div>
-      <!-- Pro -->
-      <div class="price-card">
-        <h3>Pro</h3>
-        <div class="price">$249<span>/mo per location</span></div>
-        <div class="setup">$0 setup fee</div>
-        <div class="best-for">Best for: competitive neighborhoods + restaurants with multiple menus/events</div>
-        <ul>
-          <li>Everything in Growth, plus:</li>
-          <li>Weekly AI visibility checks (not just monthly)</li>
-          <li>We align your reviews and customer photos with what AI looks for</li>
-          <li>Monthly content that keeps AI platforms talking about your restaurant</li>
-          <li>4 update requests per month</li>
-          <li>Priority support — we respond within 4 hours</li>
-        </ul>
-        <a href="#audit" class="btn btn-outline">Get Your Free AI Audit →</a>
-      </div>
+        <div class="steps-grid">
+            <div class="step fade-up">
+                <div class="step-num">1</div>
+                <h3>Free Audit</h3>
+                <p>We check what ChatGPT, Perplexity, and Google AI say about your restaurant right now. Most owners are surprised by the gaps.</p>
+            </div>
+            <div class="step fade-up">
+                <div class="step-num">2</div>
+                <h3>We Optimize</h3>
+                <p>We take your menu, reviews, and what makes you special — then make sure every AI assistant knows to recommend you. You don't have to do anything.</p>
+            </div>
+            <div class="step fade-up">
+                <div class="step-num">3</div>
+                <h3>AI Recommends You</h3>
+                <p>When someone asks "where should I eat tonight?" — your restaurant is in the answer. We monitor and adjust every month.</p>
+            </div>
+        </div>
     </div>
-
-    <!-- Multi-Location + Enterprise -->
-    <div class="pricing-extra">
-      <div class="price-card">
-        <h3>Multi-Location</h3>
-        <div class="price" style="font-size:36px">$399+<span>/mo</span></div>
-        <div class="setup">$0 setup fee</div>
-        <div class="best-for">Best for: restaurant groups with 3+ locations</div>
-        <ul>
-          <li>Everything in Pro</li>
-          <li>Centralized dashboard across all locations</li>
-          <li>Location-specific optimization</li>
-          <li>Group-level competitive intelligence</li>
-          <li>Dedicated account manager</li>
-        </ul>
-        <a href="#audit" class="btn btn-outline">Let's Talk →</a>
-      </div>
-      <div class="price-card">
-        <h3>Enterprise</h3>
-        <div class="price" style="font-size:36px">$799+<span>/mo</span></div>
-        <div class="setup">$0 setup fee</div>
-        <div class="best-for">Best for: large restaurant groups (10+ locations)</div>
-        <ul>
-          <li>White-glove onboarding</li>
-          <li>Custom reporting &amp; analytics</li>
-          <li>API access for integration with your systems</li>
-          <li>Quarterly in-person strategy sessions</li>
-          <li>Custom SLA</li>
-        </ul>
-        <a href="#audit" class="btn btn-outline">Let's Talk →</a>
-      </div>
-    </div>
-
-    <div class="pricing-footer">
-      <div class="guarantee">🛡️ 90-day money-back guarantee — full refund, no questions asked</div>
-      <p style="margin-top:16px;font-size:14px;color:var(--text3)">$0 setup fee · 90-day guarantee · Cancel anytime</p>
-      <p class="pricing-anchor">For comparison: Google Ads costs most restaurants $800+/mo. DoorDash takes 15–30% of every order. We cost less than a couple of delivery-app fees.</p>
-      <p style="margin-top:12px;font-size:14px;color:var(--gold);font-weight:600">Founding member pricing locked for life. Only 50 spots (25 LA + 25 NJ).</p>
-    </div>
-  </div>
 </section>
 
-<!-- TRUST / ABOUT -->
-<section class="section fade-up" id="about">
-  <div class="container">
-    <div class="section-label">About Us</div>
-    <h2>We're new. Here's why that's actually your advantage.</h2>
-    <p>FLUX SEO launched in 2026. We don't have 500 logos to show you. We're not going to pretend we do.</p>
-    <p>We'd rather earn your trust with results than buy it with fake testimonials.</p>
-    <div class="trust-grid">
-      <div class="trust-card">
-        <div class="tc-icon">🎯</div>
-        <h3>You get our full attention</h3>
-        <p>Big agencies manage hundreds of restaurants. You're ticket #847. With us, you're one of our first 50 — direct access to the founders, personal service, no bureaucracy.</p>
-      </div>
-      <div class="trust-card">
-        <div class="tc-icon">🔍</div>
-        <h3>A free audit you can judge</h3>
-        <p>Before you pay anything, we'll show you exactly how AI sees your restaurant right now. If the audit isn't useful, you've lost nothing but 2 minutes.</p>
-      </div>
-      <div class="trust-card">
-        <div class="tc-icon">💰</div>
-        <h3>90-day money-back guarantee</h3>
-        <p>If you don't see improvement in your AI visibility within 90 days, we refund every penny. Not a prorated amount. <strong>Everything.</strong></p>
-      </div>
-      <div class="trust-card">
-        <div class="tc-icon">🔒</div>
-        <h3>Founding member pricing</h3>
-        <p>Sign up now and your rate is locked for life. When we raise prices (and we will), yours stays the same. Only 25 spots in LA and 25 in NJ.</p>
-      </div>
+<!-- ============ FEATURES ============ -->
+<section style="background: var(--bg-surface);" id="features">
+    <div class="container">
+        <div class="text-center fade-up">
+            <div class="section-label">What We Do</div>
+            <h2>Everything AI needs to<br>recommend your restaurant.</h2>
+        </div>
+
+        <div class="features-grid">
+            <div class="feature-card fade-up">
+                <div class="feature-icon">🤖</div>
+                <h3>AI Visibility Optimization</h3>
+                <p>We make sure ChatGPT, Gemini, Perplexity, and Siri know who you are, what you serve, and why you're the right recommendation.</p>
+            </div>
+            <div class="feature-card fade-up">
+                <div class="feature-icon">🎯</div>
+                <h3>Your AI-Ready Storefront</h3>
+                <p>We build a special page for your restaurant that AI can actually read — your menu, hours, story, and what makes you unique. Think of it as your restaurant's business card for ChatGPT and Siri.</p>
+            </div>
+            <div class="feature-card fade-up">
+                <div class="feature-icon">📊</div>
+                <h3>Competitive Monitoring</h3>
+                <p>See which restaurants AI recommends instead of yours. Know exactly who's winning in your neighborhood — and what they're doing differently.</p>
+            </div>
+            <div class="feature-card fade-up">
+                <div class="feature-icon">🌐</div>
+                <h3>Multi-Platform Coverage</h3>
+                <p>ChatGPT, Perplexity, Google AI Overviews, Siri, Gemini — we cover them all. One blind spot is one lost customer.</p>
+            </div>
+        </div>
     </div>
-    <div class="founder-note">
-      <blockquote>"Most agencies hide behind dashboards. We just tell you what's happening and fix what's broken. You're not ticket #847 here — you're one of our first 50. We know you've been burned by tech companies before. That's why we lead with a free audit, not a sales pitch."</blockquote>
-      <p class="sig">— The FLUX SEO Team · Based in Los Angeles &amp; New Jersey</p>
-    </div>
-  </div>
 </section>
 
-<!-- CASE STUDY -->
-<section class="section case-study fade-up">
-  <div class="container">
-    <div class="section-label">What This Looks Like</div>
-    <div class="case-disclaimer">⚠️ Hypothetical Example — Not a Current Client</div>
-    <h2>Here's what success looks like</h2>
-    <p>Picture this: you're making great food. Your regulars love you. But Tuesday through Thursday? Half-empty dining room. You're spending $800/month on Google Ads and $200/month on Yelp, and every month you stare at the bill wondering if it's actually doing anything. Meanwhile, the new place two blocks over has a 45-minute wait — and their food isn't even as good as yours.</p>
-    <p style="margin-top:16px"><strong>After setting up FLUX SEO:</strong></p>
-    <div class="case-timeline">
-      <div class="case-milestone"><span class="when">Week 3</span><span class="what">Their restaurant starts appearing in ChatGPT responses for "best [cuisine type] near [landmark]" and "[neighborhood] restaurant with patio seating"</span></div>
-      <div class="case-milestone"><span class="when">Week 6</span><span class="what">They're the #1 AI recommendation for "date night [neighborhood]" across ChatGPT, Perplexity, and Google AI Overviews</span></div>
-      <div class="case-milestone"><span class="when">Month 3</span><span class="what">15–20 new covers per week from people who say "ChatGPT recommended you" or "I asked my phone where to eat"</span></div>
+<!-- ============ PRICING ============ -->
+<section class="pricing-section" id="pricing">
+    <div class="container">
+        <div class="text-center fade-up">
+            <div class="section-label">Pricing</div>
+            <h2>Cheaper than 2 DoorDash orders.</h2>
+            <p class="section-desc mx-auto">Most restaurants pay DoorDash $3,600+/year in fees. Google Ads cost $800+/mo. FLUX SEO costs less than two delivery orders — and every customer we send you is 100% yours.</p>
+        </div>
+
+        <div class="pricing-toggle fade-up">
+            <span class="toggle-label active" id="monthly-label">Monthly</span>
+            <div class="toggle-switch" id="billing-toggle" onclick="togglePricing()"></div>
+            <span class="toggle-label" id="annual-label">Annual</span>
+            <span class="save-badge">Save 30%</span>
+        </div>
+
+        <div class="pricing-grid fade-up">
+            <!-- Starter -->
+            <div class="price-card">
+                <h3>Starter</h3>
+                <p class="plan-desc">Single-location restaurants getting started</p>
+                <div class="price-original" id="starter-original"></div>
+                <div class="price-amount">
+                    <span class="dollar" id="starter-price">$59</span>
+                    <span class="period">/mo per location</span>
+                </div>
+                <p class="price-setup">$0 setup fee · Cancel anytime</p>
+                <ul>
+                    <li>Complete AI audit of your restaurant</li>
+                    <li>Structured for ChatGPT, Gemini & Perplexity</li>
+                    <li>Monthly visibility report</li>
+                    <li>1 update request per month</li>
+                    <li>Email support</li>
+                </ul>
+                <a href="#audit-form" class="btn-primary" style="text-decoration:none;">Get Your Free Audit →</a>
+                <a href="https://buy.stripe.com/eVq00jcuhaBq3dWcVi9Ve04" class="btn-primary" id="starter-subscribe" style="text-decoration:none; margin-top:8px; background:transparent; border:2px solid var(--accent); color:var(--accent);">Get Started →</a>
+            </div>
+
+            <!-- Growth -->
+            <div class="price-card popular">
+                <div class="popular-badge">🔥 Most Popular</div>
+                <h3>Growth</h3>
+                <p class="plan-desc">Dominate your neighborhood in AI</p>
+                <div class="price-original" id="growth-original"></div>
+                <div class="price-amount">
+                    <span class="dollar" id="growth-price">$129</span>
+                    <span class="period">/mo per location</span>
+                </div>
+                <p class="price-setup">$0 setup fee · Cancel anytime</p>
+                <ul>
+                    <li>Everything in Starter, plus:</li>
+                    <li>Active monitoring across all AI platforms</li>
+                    <li>Competitive tracking — see who AI picks over you</li>
+                    <li>Each menu optimized separately</li>
+                    <li>Priority adjustments when AI changes</li>
+                    <li>2 update requests per month</li>
+                    <li>Quarterly strategy call</li>
+                    <li>Priority support — 4-hour response</li>
+                </ul>
+                <a href="#audit-form" class="btn-primary" style="text-decoration:none;">Get Your Free Audit →</a>
+                <a href="https://buy.stripe.com/28EfZh51P6la9CkdZm9Ve02" class="btn-primary" id="growth-subscribe" style="text-decoration:none; margin-top:8px; background:transparent; border:2px solid var(--accent); color:var(--accent);">Get Started →</a>
+            </div>
+
+            <!-- Enterprise -->
+            <div class="price-card">
+                <h3>Enterprise</h3>
+                <p class="plan-desc">Restaurant groups & multi-location brands</p>
+                <div class="price-original">&nbsp;</div>
+                <div class="price-amount">
+                    <span class="dollar" style="font-size:32px;">Custom</span>
+                </div>
+                <p class="price-setup">$0 setup fee · Custom terms</p>
+                <ul>
+                    <li>Everything in Growth</li>
+                    <li>Centralized dashboard for all locations</li>
+                    <li>Location-specific optimization</li>
+                    <li>Group-level competitive intelligence</li>
+                    <li>Dedicated account manager</li>
+                    <li>Custom reporting & SLA</li>
+                </ul>
+                <a href="mailto:hello@fluxseo.ai" class="btn-outline" style="text-decoration:none;">Let's Talk →</a>
+            </div>
+        </div>
+
+        <div class="pricing-footer fade-up">
+            <span>✅ $0 setup fees</span>
+            <span>🛡️ 90-day money-back guarantee</span>
+            <span>🚫 Cancel anytime</span>
+        </div>
     </div>
-    <p style="margin-top:28px"><strong>That's not fantasy.</strong> That's what happens when AI can actually read your restaurant's information instead of guessing.</p>
-  </div>
 </section>
 
-<!-- FAQ -->
-<section class="section fade-up" id="faq">
-  <div class="container" style="text-align:center">
-    <div class="section-label">FAQ</div>
-    <h2>Questions you'd actually ask</h2>
-    <div class="faq-list" style="text-align:left">
-      <div class="faq-item">
-        <div class="faq-q"><h3>I barely have time to check email. Is this going to be more work for me?</h3><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></div>
-        <div class="faq-a"><p>Setup takes one 10-minute conversation where you tell us about your restaurant. After that, we handle everything. Your monthly report is shorter than your average Yelp review.</p></div>
-      </div>
-      <div class="faq-item">
-        <div class="faq-q"><h3>Does this replace Google or Yelp?</h3><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></div>
-        <div class="faq-a"><p>No. Think of it as a new channel. People still Google. But more and more people ask AI instead. This makes sure you show up in both worlds.</p></div>
-      </div>
-      <div class="faq-item">
-        <div class="faq-q"><h3>My nephew said he could do this for me.</h3><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></div>
-        <div class="faq-a"><p>Maybe. But AI platforms change their recommendation systems constantly. This isn't a one-time fix — it's ongoing optimization. Unless your nephew wants a part-time job monitoring AI updates, you'll want someone dedicated to this.</p></div>
-      </div>
-      <div class="faq-item">
-        <div class="faq-q"><h3>What if it doesn't work?</h3><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></div>
-        <div class="faq-a"><p>90-day money-back guarantee. Full refund. We're betting on ourselves here.</p></div>
-      </div>
-      <div class="faq-item">
-        <div class="faq-q"><h3>I have multiple locations. Do I need separate accounts?</h3><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></div>
-        <div class="faq-a"><p>We offer multi-location pricing starting at $399/mo. Let's talk — we'll figure out what makes sense for your setup.</p></div>
-      </div>
-      <div class="faq-item">
-        <div class="faq-q"><h3>How do I know if this is even working?</h3><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></div>
-        <div class="faq-a"><p>Every month you get a simple report: which AI platforms are recommending you, for which queries, and how often. Plus we show you where you rank compared to nearby competitors. Takes 2 minutes to read.</p></div>
-      </div>
-      <div class="faq-item">
-        <div class="faq-q"><h3>What makes you different from regular SEO companies?</h3><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></div>
-        <div class="faq-a"><p>Regular SEO optimizes for Google's algorithm. We optimize for how AI language models understand and recommend restaurants. It's a different skill set. Most SEO agencies don't even know this space exists yet.</p></div>
-      </div>
-      <div class="faq-item">
-        <div class="faq-q"><h3>Can I try this without committing?</h3><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></div>
-        <div class="faq-a"><p>Yes. Get the free audit first. See what AI knows (or doesn't know) about your restaurant. No credit card, no commitment. If the audit isn't valuable on its own, don't sign up.</p></div>
-      </div>
-      <div class="faq-item">
-        <div class="faq-q"><h3>What cuisines do you work with?</h3><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></div>
-        <div class="faq-a"><p>All of them. Thai, Mexican, BBQ, sushi, Mediterranean, Indian, Italian, French, Korean, soul food, vegan, seafood, steakhouses — if you serve food, we can optimize for AI discovery.</p></div>
-      </div>
-      <div class="faq-item">
-        <div class="faq-q"><h3>How long does it take to see results?</h3><svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg></div>
-        <div class="faq-a"><p>Most restaurants start appearing in AI responses within 3–4 weeks. Significant traffic increases typically show up by month 3.</p></div>
-      </div>
+<!-- ============ FAQ ============ -->
+<section id="faq">
+    <div class="container">
+        <div class="text-center fade-up">
+            <div class="section-label">FAQ</div>
+            <h2>Questions you'd actually ask.</h2>
+        </div>
+
+        <div class="faq-list fade-up">
+            <div class="faq-item">
+                <button class="faq-q" onclick="toggleFaq(this)">
+                    I barely have time to check email. Is this more work for me?
+                    <svg class="faq-chevron" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"/></svg>
+                </button>
+                <div class="faq-a"><p>Setup takes one 10-minute conversation where you tell us about your restaurant. After that, we handle everything. Your monthly report is shorter than your average Yelp review.</p></div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-q" onclick="toggleFaq(this)">
+                    Does this replace Google or Yelp?
+                    <svg class="faq-chevron" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"/></svg>
+                </button>
+                <div class="faq-a"><p>No. Think of it as a new channel. People still Google. But more and more people ask AI instead. This makes sure you show up in both worlds.</p></div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-q" onclick="toggleFaq(this)">
+                    What if it doesn't work?
+                    <svg class="faq-chevron" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"/></svg>
+                </button>
+                <div class="faq-a"><p>90-day money-back guarantee. Full refund, no questions asked. We're betting on ourselves here.</p></div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-q" onclick="toggleFaq(this)">
+                    My nephew said he could do this for me.
+                    <svg class="faq-chevron" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"/></svg>
+                </button>
+                <div class="faq-a"><p>Maybe. But AI platforms change their recommendation systems constantly. This isn't a one-time fix — it's ongoing optimization. Unless your nephew wants a part-time job monitoring AI updates, you'll want someone dedicated to this.</p></div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-q" onclick="toggleFaq(this)">
+                    How do I know if this is even working?
+                    <svg class="faq-chevron" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"/></svg>
+                </button>
+                <div class="faq-a"><p>Every month you get a simple report: which AI platforms are recommending you, for which queries, and how often. Plus we show you where you rank compared to nearby competitors. Takes 2 minutes to read.</p></div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-q" onclick="toggleFaq(this)">
+                    What makes you different from regular SEO companies?
+                    <svg class="faq-chevron" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"/></svg>
+                </button>
+                <div class="faq-a"><p>Regular SEO helps you rank on Google. We make sure AI assistants like ChatGPT and Siri actually know about your restaurant and recommend it. It's a completely different system — and most SEO agencies aren't set up for it yet.</p></div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-q" onclick="toggleFaq(this)">
+                    I have multiple locations. Do I need separate accounts?
+                    <svg class="faq-chevron" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"/></svg>
+                </button>
+                <div class="faq-a"><p>Our Enterprise plan covers multi-location brands with a centralized dashboard. Let's talk — we'll figure out what makes sense for your setup.</p></div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-q" onclick="toggleFaq(this)">
+                    Can I try this without committing?
+                    <svg class="faq-chevron" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"/></svg>
+                </button>
+                <div class="faq-a"><p>Yes. Get the free audit first. See what AI knows — or doesn't know — about your restaurant. No credit card, no commitment. If the audit isn't valuable on its own, don't sign up.</p></div>
+            </div>
+        </div>
     </div>
-  </div>
 </section>
 
-<!-- FINAL CTA -->
-<section class="section final-cta fade-up" id="audit">
-  <div class="container">
-    <div class="section-label">Free AI Audit</div>
-    <h2>Right now, someone in your neighborhood is asking ChatGPT where to eat.</h2>
-    <p style="margin-bottom:8px">Is your restaurant in the answer? Enter your info and within 24 hours you'll get a plain-English report: which AI platforms know about you, what they're getting wrong, and how you compare to nearby competitors.</p>
-    <p style="color:var(--text3);font-size:15px">No charge, no commitment. No salesperson will call you during dinner service.</p>
-    <form class="audit-form" action="https://formspree.io/f/xvgzjlqr" method="POST">
-      <input type="hidden" name="_source" value="full-audit-form">
-      <label for="audit-restaurant" style="font-size:14px;color:var(--text3);margin-bottom:-8px">Restaurant name *</label>
-      <input type="text" id="audit-restaurant" name="restaurant" placeholder="e.g., Maria's Kitchen" required>
-      <label for="audit-city" style="font-size:14px;color:var(--text3);margin-bottom:-8px">City or neighborhood *</label>
-      <input type="text" id="audit-city" name="city" placeholder="e.g., Venice Beach, Jersey City" required>
-      <label for="audit-cuisine" style="font-size:14px;color:var(--text3);margin-bottom:-8px">Cuisine type (optional)</label>
-      <input type="text" id="audit-cuisine" name="cuisine" placeholder="e.g., Thai, BBQ, Mediterranean">
-      <label for="audit-email" style="font-size:14px;color:var(--text3);margin-bottom:-8px">Your email *</label>
-      <input type="email" id="audit-email" name="email" placeholder="Where we'll send your audit" required>
-      <label for="audit-phone" style="font-size:14px;color:var(--text3);margin-bottom:-8px">Phone (optional — for faster results)</label>
-      <input type="tel" id="audit-phone" name="phone" placeholder="(555) 123-4567" autocomplete="tel">
-      <button type="submit" class="btn btn-primary">See What AI Says About My Restaurant →</button>
-    </form>
-    <p class="form-note"><strong>Here's what happens next:</strong> Within 24 hours, you'll get a personalized AI audit in your inbox. No phone calls unless you want one.<br>Your info is never sold or shared. Questions? <a href="mailto:hello@fluxseo.ai">hello@fluxseo.ai</a></p>
-  </div>
+<!-- ============ FINAL CTA ============ -->
+<section class="final-cta" id="final-cta">
+    <div class="container">
+        <div class="text-center fade-up">
+            <h2>Find out what AI says<br>about your restaurant.</h2>
+            <p class="section-desc mx-auto">Free audit. Takes 2 minutes. No charge, no commitment.<br>We'll text you the results — check them between services.</p>
+        </div>
+
+        <div class="final-form fade-up">
+            <form id="footer-form" action="https://formspree.io/f/PLACEHOLDER" method="POST">
+                <div class="form-group" style="margin-bottom:12px;">
+                    <label for="restaurant2">Restaurant Name</label>
+                    <input type="text" id="restaurant2" name="restaurant" placeholder="e.g. Bella's Trattoria" required>
+                </div>
+                <div class="form-row" style="margin-bottom:12px;">
+                    <div class="form-group">
+                        <label for="email2">Email</label>
+                        <input type="email" id="email2" name="email" placeholder="you@restaurant.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="city2">City</label>
+                        <input type="text" id="city2" name="city" placeholder="e.g. Culver City, CA" required>
+                    </div>
+                </div>
+                <button type="submit" class="btn-primary">Run My Free AI Audit →</button>
+            </form>
+            <p class="form-footer-text">🔒 No spam. No credit card. Just your audit.</p>
+
+            <div class="success-msg" id="footer-success">
+                <div class="check-icon">✅</div>
+                <h2>Your audit is on the way!</h2>
+                <p>Check your email in the next 24 hours.</p>
+            </div>
+        </div>
+
+        <p class="contact-line">Questions? Email us at <a href="mailto:hello@fluxseo.ai">hello@fluxseo.ai</a> — we respond like humans, not chatbots.</p>
+    </div>
 </section>
 
-<!-- FOOTER -->
-<footer class="footer">
-  <div class="container">
+<!-- ============ FOOTER ============ -->
+<footer>
     <div class="footer-grid">
-      <div class="footer-brand">
-        <div class="logo" style="font-size:24px">FLUX <span style="color:var(--gold)">SEO</span></div>
-        <p>AI discovery for independent restaurants. When customers ask AI where to eat, we make sure they find you.</p>
-      </div>
-      <div>
-        <h4>Product</h4>
-        <ul>
-          <li><a href="#how-it-works">How It Works</a></li>
-          <li><a href="#pricing">Pricing</a></li>
-          <li><a href="#audit">Free Audit</a></li>
-          <li><a href="#faq">FAQ</a></li>
-        </ul>
-      </div>
-      <div>
-        <h4>Company</h4>
-        <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="mailto:hello@fluxseo.ai">Contact</a></li>
-        </ul>
-      </div>
-      <div>
-        <h4>Legal</h4>
-        <ul>
-          <li><a href="/privacy">Privacy Policy</a></li>
-          <li><a href="/terms">Terms of Service</a></li>
-          <li><a href="/refund">Refund Policy</a></li>
-        </ul>
-      </div>
+        <div class="footer-brand">
+            <div class="nav-logo">⚡ <span style="color:var(--accent);">FLUX</span>SEO</div>
+            <p>AI Visibility for Restaurants.<br>Based in Los Angeles & New Jersey.</p>
+        </div>
+        <div class="footer-col">
+            <h4>Product</h4>
+            <a href="#how-it-works">How It Works</a>
+            <a href="#pricing">Pricing</a>
+            <a href="#audit-form">Free Audit</a>
+            <a href="#faq">FAQ</a>
+        </div>
+        <div class="footer-col">
+            <h4>Company</h4>
+            <a href="#">About</a>
+            <a href="mailto:hello@fluxseo.ai">Contact</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+        </div>
+        <div class="footer-col">
+            <h4>Contact</h4>
+            <a href="mailto:hello@fluxseo.ai">hello@fluxseo.ai</a>
+        </div>
     </div>
     <div class="footer-bottom">
-      © 2026 FLUX SEO. All rights reserved. Built for restaurants who want to show up when AI recommends dinner.
+        © 2026 FluxSEO. Built for restaurants who want to show up when AI recommends dinner.
     </div>
-  </div>
 </footer>
 
-<!-- STICKY MOBILE CTA -->
-<div class="sticky-cta" id="stickyCta">
-  <a href="#audit" class="btn btn-primary">Get Your Free AI Audit →</a>
+<!-- ============ STICKY MOBILE CTA ============ -->
+<div class="sticky-cta" id="sticky-cta">
+    <a href="#audit-form" class="btn-primary" style="text-decoration:none;">Get Free Audit →</a>
 </div>
 
 <script>
-// Sticky nav
-const nav=document.getElementById('nav');
-const stickyCta=document.getElementById('stickyCta');
-window.addEventListener('scroll',()=>{
-  const s=window.scrollY;
-  nav.classList.toggle('scrolled',s>60);
-  stickyCta.classList.toggle('visible',s>600);
-},{passive:true});
+    // ---- Pricing Toggle ----
+    let isAnnual = false;
+    function togglePricing() {
+        isAnnual = !isAnnual;
+        const toggle = document.getElementById('billing-toggle');
+        const mLabel = document.getElementById('monthly-label');
+        const aLabel = document.getElementById('annual-label');
+        toggle.classList.toggle('on', isAnnual);
+        mLabel.classList.toggle('active', !isAnnual);
+        aLabel.classList.toggle('active', isAnnual);
 
-// Hamburger menu
-const hamburger=document.getElementById('hamburger');
-const navLinks=document.getElementById('navLinks');
-hamburger.addEventListener('click',()=>{
-  navLinks.classList.toggle('open');
-  const spans=hamburger.querySelectorAll('span');
-  if(navLinks.classList.contains('open')){
-    spans[0].style.transform='rotate(45deg) translate(5px,5px)';
-    spans[1].style.opacity='0';
-    spans[2].style.transform='rotate(-45deg) translate(5px,-5px)';
-  }else{
-    spans[0].style.transform='';spans[1].style.opacity='';spans[2].style.transform='';
-  }
-});
-// Close menu on link click
-navLinks.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{
-  navLinks.classList.remove('open');
-  const spans=hamburger.querySelectorAll('span');
-  spans[0].style.transform='';spans[1].style.opacity='';spans[2].style.transform='';
-}));
+        document.getElementById('starter-price').textContent = isAnnual ? '$40' : '$59';
+        document.getElementById('growth-price').textContent = isAnnual ? '$90' : '$129';
+        document.getElementById('starter-original').textContent = isAnnual ? '$59/mo' : '';
+        document.getElementById('growth-original').textContent = isAnnual ? '$129/mo' : '';
 
-// FAQ toggle
-document.querySelectorAll('.faq-q').forEach(q=>{
-  q.addEventListener('click',()=>{
-    const item=q.parentElement;
-    document.querySelectorAll('.faq-item.open').forEach(i=>{if(i!==item)i.classList.remove('open')});
-    item.classList.toggle('open');
-  });
-});
+        // Swap Stripe payment links for monthly/annual
+        document.getElementById('starter-subscribe').href = isAnnual 
+            ? 'https://buy.stripe.com/5kQ6oHam96la8yg08w9Ve05' 
+            : 'https://buy.stripe.com/eVq00jcuhaBq3dWcVi9Ve04';
+        document.getElementById('growth-subscribe').href = isAnnual 
+            ? 'https://buy.stripe.com/28EeVd79XfVKg0I3kI9Ve03' 
+            : 'https://buy.stripe.com/28EfZh51P6la9CkdZm9Ve02';
+    }
 
-// Smooth scroll
-document.querySelectorAll('a[href^="#"]').forEach(a=>{
-  a.addEventListener('click',e=>{
-    const t=document.querySelector(a.getAttribute('href'));
-    if(t){e.preventDefault();t.scrollIntoView({behavior:'smooth',block:'start'})}
-  });
-});
+    // ---- FAQ Accordion ----
+    function toggleFaq(btn) {
+        const item = btn.parentElement;
+        const wasOpen = item.classList.contains('open');
+        // close all
+        document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'));
+        if (!wasOpen) item.classList.add('open');
+    }
 
-// Fade-up on scroll (IntersectionObserver)
-const observer=new IntersectionObserver((entries)=>{
-  entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');observer.unobserve(e.target)}});
-},{threshold:0.1,rootMargin:'0px 0px -40px 0px'});
-document.querySelectorAll('.fade-up').forEach(el=>observer.observe(el));
+    // ---- Hero Form: Instant AI Audit ----
+    const heroForm = document.getElementById('hero-form');
+    heroForm.addEventListener('submit', async (e) => {
+        e.preventDefault();
+        const restaurant = document.getElementById('restaurant').value;
+        const email = document.getElementById('email').value;
+        const city = document.getElementById('city').value;
 
-// Form submission feedback
-document.querySelectorAll('form').forEach(form=>{
-  form.addEventListener('submit',function(e){
-    const btn=form.querySelector('button[type="submit"]');
-    if(btn){
-      const orig=btn.textContent;
-      btn.textContent='Running your audit...';
-      btn.disabled=true;
-      setTimeout(()=>{btn.textContent=orig;btn.disabled=false},5000);
+        // Show loading
+        heroForm.style.display = 'none';
+        document.querySelector('.form-footer-text').style.display = 'none';
+        const loading = document.getElementById('audit-loading');
+        const results = document.getElementById('audit-results');
+        loading.style.display = 'block';
+
+        // Animate progress
+        const bar = document.getElementById('progress-bar');
+        const status = document.getElementById('loading-status');
+        const steps = [
+            { pct: '25%', text: 'Asking ChatGPT about ' + restaurant + '...' },
+            { pct: '50%', text: 'Checking Perplexity recommendations...' },
+            { pct: '75%', text: 'Scanning Google AI results...' },
+            { pct: '90%', text: 'Analyzing competitors...' },
+        ];
+        let stepIdx = 0;
+        const stepInterval = setInterval(() => {
+            if (stepIdx < steps.length) {
+                bar.style.width = steps[stepIdx].pct;
+                status.textContent = steps[stepIdx].text;
+                stepIdx++;
+            }
+        }, 2500);
+
+        try {
+            const resp = await fetch('/api/audit', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ restaurant, city, email }),
+            });
+            const data = await resp.json();
+
+            clearInterval(stepInterval);
+            bar.style.width = '100%';
+            status.textContent = 'Done!';
+
+            await new Promise(r => setTimeout(r, 500));
+            loading.style.display = 'none';
+            results.style.display = 'block';
+
+            // Score
+            const scoreEl = document.getElementById('score-display');
+            const scoreColor = data.score === 0 ? '#ef4444' : data.score < 100 ? '#f59e0b' : '#22c55e';
+            scoreEl.textContent = data.score + '/100';
+            scoreEl.style.color = scoreColor;
+
+            // Platform results
+            const platformDiv = document.getElementById('platform-results');
+            platformDiv.innerHTML = data.results.map(r => `
+                <div style="display:flex; align-items:center; gap:12px; padding:14px 16px; background:#1c1c1c; border-radius:10px; border-left:3px solid ${r.found ? '#22c55e' : '#ef4444'};">
+                    <span style="font-size:24px;">${r.found ? '✅' : '❌'}</span>
+                    <div>
+                        <div style="font-weight:600; font-size:15px;">${r.platform}</div>
+                        <div style="font-size:13px; color:${r.found ? '#86efac' : '#fca5a5'};">${r.found ? 'Your restaurant was mentioned!' : 'Not recommending your restaurant'}</div>
+                    </div>
+                </div>
+            `).join('');
+
+            // Recommendation
+            document.getElementById('recommendation-text').textContent = data.recommendation;
+
+            // Competitors
+            if (data.competitors && data.competitors.length > 0) {
+                document.getElementById('competitors-section').style.display = 'block';
+                document.getElementById('competitors-list').innerHTML = data.competitors.map(c =>
+                    `<span style="background:#1c1c1c; padding:6px 14px; border-radius:20px; font-size:13px; color:#fca5a5; border:1px solid #333;">${c}</span>`
+                ).join('');
+            }
+
+        } catch (err) {
+            clearInterval(stepInterval);
+            loading.style.display = 'none';
+            heroForm.style.display = 'block';
+            document.querySelector('.form-footer-text').style.display = 'block';
+            alert('Something went wrong. Please try again.');
+        }
+    });
+
+    // ---- Footer Form Submission ----
+    function setupForm(formId, successId) {
+        const form = document.getElementById(formId);
+        if (!form) return;
+        const success = document.getElementById(successId);
+        form.addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const btn = form.querySelector('.btn-primary');
+            btn.textContent = 'Submitting...';
+            btn.style.pointerEvents = 'none';
+            try {
+                await fetch(form.action, {
+                    method: 'POST',
+                    body: new FormData(form),
+                    headers: { 'Accept': 'application/json' }
+                });
+            } catch (err) {}
+            form.style.display = 'none';
+            success.style.display = 'block';
+        });
+    }
+    setupForm('footer-form', 'footer-success');
+
+    // ---- Scroll Animations ----
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('visible');
+                observer.unobserve(entry.target);
+            }
+        });
+    }, { threshold: 0.15 });
+    document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
+
+    // ---- Sticky Mobile CTA ----
+    const sticky = document.getElementById('sticky-cta');
+    const heroSection = document.getElementById('audit-form');
+    const stickyObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            sticky.classList.toggle('show', !entry.isIntersecting);
+        });
+    }, { threshold: 0 });
+    stickyObserver.observe(heroSection);
+</script>
+
+</body>
+
+<!-- Vercel Web Analytics -->
+<script defer src="/_vercel/insights/script.js"></script>
+
+<!-- FLUX SEO Visitor & Event Tracking -->
+<script>
+(function() {
+  // Track page visit with source
+  var params = new URLSearchParams(window.location.search);
+  var source = params.get('utm_source') || params.get('ref') || 'direct';
+  
+  // Simple visitor log to our endpoint
+  var visit = {
+    ts: new Date().toISOString(),
+    page: window.location.pathname,
+    ref: document.referrer || 'direct',
+    source: source,
+    ua: navigator.userAgent.substring(0, 100)
+  };
+  
+  // Log to console for now + send beacon
+  console.log('FLUX visit:', visit);
+    new Image().src = '/api/track?t=pageview&ref=' + encodeURIComponent(visit.ref) + '&src=' + encodeURIComponent(visit.source);
+  
+  // Track CTA clicks
+  document.addEventListener('click', function(e) {
+    var el = e.target.closest('a, button');
+    if (!el) return;
+    var text = (el.textContent || '').trim().substring(0, 50);
+    var href = el.href || '';
+    
+    // Track specific actions
+    if (text.includes('Get Your Free') || text.includes('Get Started') || text.includes('Free Audit')) {
+      console.log('FLUX CTA click:', text, href);
+      new Image().src = '/api/track?t=cta_click&btn=' + encodeURIComponent(text);
+      // Fire Vercel analytics event if available
+      if (window.va) window.va('event', { name: 'cta_click', data: { button: text } });
+    }
+    
+    // Track Stripe payment links
+    if (href.includes('stripe.com') || href.includes('buy.stripe.com')) {
+      console.log('FLUX Stripe click:', text, href);
+      new Image().src = '/api/track?t=stripe_click&btn=' + encodeURIComponent(text);
+      if (window.va) window.va('event', { name: 'stripe_click', data: { plan: text } });
     }
   });
-});
+  
+  // Track scroll depth
+  var maxScroll = 0;
+  var scrollMilestones = [25, 50, 75, 100];
+  var reportedMilestones = {};
+  window.addEventListener('scroll', function() {
+    var scrollPct = Math.round((window.scrollY / (document.body.scrollHeight - window.innerHeight)) * 100);
+    if (scrollPct > maxScroll) {
+      maxScroll = scrollPct;
+      scrollMilestones.forEach(function(m) {
+        if (scrollPct >= m && !reportedMilestones[m]) {
+          reportedMilestones[m] = true;
+          if (window.va) window.va('event', { name: 'scroll_depth', data: { depth: m + '%' } });
+        }
+      });
+    }
+  });
+  
+  // Track time on page
+  var startTime = Date.now();
+  window.addEventListener('beforeunload', function() {
+    var timeOnPage = Math.round((Date.now() - startTime) / 1000);
+    if (window.va) window.va('event', { name: 'time_on_page', data: { seconds: timeOnPage } });
+  });
+})();
 </script>
-</body>
 </html>
