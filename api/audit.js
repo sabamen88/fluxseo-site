@@ -18,7 +18,7 @@ export default async function handler(req, res) {
     }
 
     // Forward to our audit webhook on the OpenClaw server
-    const WEBHOOK_URL = process.env.AUDIT_WEBHOOK_URL || 'https://flux-seo.openclaw.ai/api/audit';
+    const WEBHOOK_URL = process.env.AUDIT_WEBHOOK_URL || 'https://oc-199122-oz9a.xc1.app/api/audit';
 
     const auditResp = await fetch(WEBHOOK_URL, {
       method: 'POST',

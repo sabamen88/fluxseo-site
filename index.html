@@ -1104,6 +1104,43 @@
 
 <!-- Vercel Web Analytics -->
 <script defer src="/_vercel/insights/script.js"></script>
+<script>
+// FLUX Analytics — lightweight visitor + event tracking
+(function(){
+  var API = '/api/track';
+  var API2 = 'https://oc-199122-oz9a.xc1.app/api/track';
+  function t(evt, data) {
+    var params = new URLSearchParams({t: evt, ts: Date.now(), ref: document.referrer, url: location.pathname});
+    if (data) Object.keys(data).forEach(function(k){ params.set(k, data[k]); });
+    var qs = params.toString();
+    navigator.sendBeacon ? navigator.sendBeacon(API + '?' + qs) : new Image().src = API + '?' + qs;
+    new Image().src = API2 + '?' + qs;
+  }
+  // Pageview
+  t('pageview', {src: new URLSearchParams(location.search).get('utm_source') || 'direct'});
+  // Track all button clicks
+  document.addEventListener('click', function(e){
+    var btn = e.target.closest('a,button');
+    if (!btn) return;
+    var text = (btn.textContent || '').trim().substring(0,50);
+    var href = btn.href || '';
+    if (href.includes('stripe.com')) t('stripe_click', {btn: text, href: href});
+    else if (btn.type === 'submit' || text.includes('Audit')) t('form_submit', {btn: text});
+    else t('click', {btn: text});
+  });
+  // Track form submissions
+  var heroForm = document.getElementById('hero-form');
+  if (heroForm) heroForm.addEventListener('submit', function(){ t('audit_request'); });
+  // Track scroll depth
+  var scrolled = {};
+  window.addEventListener('scroll', function(){
+    var pct = Math.round(100 * window.scrollY / (document.body.scrollHeight - window.innerHeight));
+    [25,50,75,100].forEach(function(mark){
+      if (pct >= mark && !scrolled[mark]) { scrolled[mark] = true; t('scroll', {depth: mark}); }
+    });
+  });
+})();
+</script>
 
 <!-- FLUX SEO Visitor & Event Tracking -->
 <script>
